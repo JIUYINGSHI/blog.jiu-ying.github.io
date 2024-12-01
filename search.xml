@@ -23,7 +23,7 @@
   <entry>
     <title>Python记录笔记</title>
     <url>/2024/12/01/Python%E8%AE%B0%E5%BD%95%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>返回<a href="%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B"><strong>编程学习历程</strong></a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>返回<a href="%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B.md#"><strong>编程学习历程</strong></a></p>
 <iframe style="border-radius:12px" src="http://127.0.0.1:5244" width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ## 实时战争交互
 <iframe style="border-radius:12px" src="https://liveuamap.com" width="1200" height="920" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -102,6 +102,19 @@
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	no=number=first=<span class="number">1</span></span><br><span class="line">	<span class="built_in">print</span>(no,number,first)</span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(no)) <span class="comment">#---&gt;通过内置函数&#x27;id()&#x27;查看对象的内存地址</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(number)) <span class="comment">#---&gt;三个的内存地址都相同说明赋值的是同一个对象</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(first))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <p>在语句含义中遇到开头为 r 或者 R 的时候，会使后面的转义字符失效，使它们按照原文进行输出</p>
 ]]></content>
+      <tags>
+        <tag>记录Ascll码的对应数字：</tag>
+        <tag>open</tag>
+        <tag>end</tag>
+        <tag>input</tag>
+        <tag>int</tag>
+        <tag>注释</tag>
+        <tag>保留字</tag>
+        <tag>type</tag>
+        <tag>Python的性质</tag>
+        <tag>id</tag>
+        <tag>Python允许多个变量指向同一值</tag>
+      </tags>
   </entry>
   <entry>
     <title>UWP代理</title>
@@ -713,13 +726,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Python历程</title>
+    <title>编程学习历程</title>
     <url>/2024/12/01/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Git-Bush-提交更新命令"><a href="#Git-Bush-提交更新命令" class="headerlink" title="Git Bush 提交更新命令"></a>Git Bush 提交更新命令</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="GIT-BUSH-提交更新命令"><a href="#GIT-BUSH-提交更新命令" class="headerlink" title="GIT BUSH 提交更新命令"></a>GIT BUSH 提交更新命令</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="Git-Bush-提交新仓库"><a href="#Git-Bush-提交新仓库" class="headerlink" title="Git Bush 提交新仓库"></a>Git Bush 提交新仓库</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line">git remote add ** git@github.com/JIUYINGSHI/**.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u ** main</span><br></pre></td></tr></table></figure></div>
+<h1 id="GIT-BUSH-提交新仓库"><a href="#GIT-BUSH-提交新仓库" class="headerlink" title="GIT BUSH 提交新仓库"></a>GIT BUSH 提交新仓库</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line">git remote add ** git@github.com/JIUYINGSHI/**.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u ** main</span><br></pre></td></tr></table></figure></div>
 
-<h1 id="入门学习"><a href="#入门学习" class="headerlink" title="入门学习"></a>入门学习</h1><ol start="0">
+<h1 id="入门学习"><a href="#入门学习" class="headerlink" title="入门学习"></a>入门学习</h1><ol>
 <li>#注释 #保留字 #Python的性质 #Python允许多个变量指向同一值</li>
 </ol>
 <h2 id="基本逻辑语法："><a href="#基本逻辑语法：" class="headerlink" title="基本逻辑语法："></a>基本逻辑语法：</h2><h3 id="输入语句："><a href="#输入语句：" class="headerlink" title="输入语句："></a>输入语句：</h3><ol>
@@ -742,7 +755,7 @@
 <hr>
 <p>Python的练习：<a href="Python%E7%BB%83%E4%B9%A0.py"><strong>开始练习</strong></a></p>
 <hr>
-<p>Python记录笔记：<a href="Python%E8%AE%B0%E5%BD%95%E7%AC%94%E8%AE%B0"><strong>学到的知识</strong></a></p>
+<p>Python记录笔记：<a href="Python%E8%AE%B0%E5%BD%95%E7%AC%94%E8%AE%B0.md#"><strong>学到的知识</strong></a></p>
 <hr>
 <p>Markdown语法学习：<a href="https://markdown.com.cn/basic-syntax/" title="忘记怎么用就来看看吧"><strong>makedown</strong></a></p>
 <hr>
@@ -756,6 +769,21 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4xnsmyI5KMQ?si=FqWZNrFOwTAZiZDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width= 560px height= 315px src="https://player.bilibili.com/player.html?aid=712020469&bvid=BV1wD4y1o7AS&cid=1298431480&p=15&&autoplay=0&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <tags>
+        <tag>open</tag>
+        <tag>end</tag>
+        <tag>input</tag>
+        <tag>int</tag>
+        <tag>注释</tag>
+        <tag>保留字</tag>
+        <tag>type</tag>
+        <tag>Python的性质</tag>
+        <tag>id</tag>
+        <tag>Python允许多个变量指向同一值</tag>
+        <tag>print</tag>
+        <tag>chr</tag>
+        <tag>ord</tag>
+      </tags>
   </entry>
   <entry>
     <title>自己创建右键菜单选项</title>
