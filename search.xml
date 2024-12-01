@@ -47,27 +47,24 @@
   <entry>
     <title>Python记录笔记</title>
     <url>/2024/12/01/Python%E8%AE%B0%E5%BD%95%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>返回<a href="%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B.md#"><strong>编程学习历程</strong></a></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="PYTHON记录笔记"><a href="#PYTHON记录笔记" class="headerlink" title="PYTHON记录笔记"></a>PYTHON记录笔记</h1><p>返回<a href="%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B.md#"><strong>编程学习历程</strong></a></p>
 <iframe style="border-radius:12px" src="http://127.0.0.1:5244" width="100%" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ## 实时战争交互
 <iframe style="border-radius:12px" src="https://liveuamap.com" width="1200" height="920" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-#print 
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="built_in">print</span> (<span class="string">&#x27;Hello Python&#x27;</span>)<span class="comment">#---&gt;print的含义是输出括号内的内容</span></span><br><span class="line">	<span class="built_in">print</span> (value,…,sep=<span class="string">&#x27;&#x27;</span>,end=<span class="string">&#x27;\n&#x27;</span>,file=<span class="literal">None</span>)</span><br><span class="line">	<span class="comment"># value为需要输出的值    可以用&#x27;,&#x27;来输出多个</span></span><br><span class="line">	<span class="comment"># sep在输出结束后会自动换行  这是由end的&#x27;\n&#x27;决定的(暂时不是很懂&#x27;\n&#x27;的含义)</span></span><br><span class="line">	<span class="comment"># file决定了你可以把内容输出到文件当中</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#记录Ascll码的对应数字：</span></span><br><span class="line">	中文编码的范围是从&lt;u4e00-u9fa5&gt; </span><br><span class="line">	暂时还不知道是什么作用，等知道了再补上</span><br></pre></td></tr></table></figure></div>
-#chr #ord 
-[通过Unicode编码来确定Ascll编码的数值]:-
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#使用中文的Unicode编码来获取Ascll编码的对应数字来进行输出</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">ord</span>(<span class="string">&#x27;久&#x27;</span>))<span class="comment">#---&gt;对应下面的20037</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">ord</span>(<span class="string">&#x27;影&#x27;</span>))<span class="comment">#---&gt;对应下面的24433</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">chr</span>(<span class="number">20037</span>),(<span class="built_in">chr</span>(<span class="number">24433</span>)))<span class="comment">#通过,使其在同一行输出</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-#open
+`print` 
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="built_in">print</span> (<span class="string">&#x27;Hello Python&#x27;</span>)<span class="comment">#---&gt;print的含义是输出括号内的内容</span></span><br><span class="line">	<span class="built_in">print</span> (value,…,sep=<span class="string">&#x27;&#x27;</span>,end=<span class="string">&#x27;\n&#x27;</span>,file=<span class="literal">None</span>)</span><br><span class="line">	<span class="comment"># VALUE为需要输出的值 可以用&#x27;,&#x27;来输出多个</span></span><br><span class="line">	<span class="comment"># SEP在输出结束后会自动换行 这是由END的&#x27;\N&#x27;决定的(暂时不是很懂&#x27;\N&#x27;的含义)</span></span><br><span class="line">	<span class="comment"># FILE决定了你可以把内容输出到文件当中</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#记录Ascll码的对应数字：</span></span><br><span class="line">	中文编码的范围是从&lt;u4e00-u9fa5&gt; </span><br><span class="line">	暂时还不知道是什么作用，等知道了再补上</span><br><span class="line">```python</span><br><span class="line"><span class="comment">#chr #ord </span></span><br><span class="line">[通过Unicode编码来确定Ascll编码的数值]:-</span><br><span class="line">```python</span><br><span class="line"><span class="comment">#使用中文的Unicode编码来获取Ascll编码的对应数字来进行输出</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">ord</span>(<span class="string">&#x27;久&#x27;</span>))<span class="comment">#---&gt;对应下面的20037</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">ord</span>(<span class="string">&#x27;影&#x27;</span>))<span class="comment">#---&gt;对应下面的24433</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">chr</span>(<span class="number">20037</span>),(<span class="built_in">chr</span>(<span class="number">24433</span>)))<span class="comment">#通过,使其在同一行输出</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+`open`
 [不指定绝对路径就会在当前目录创建]:-
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">     jy=<span class="built_in">open</span>(<span class="string">&quot;jy.txt&quot;</span>,<span class="string">&quot;w&quot;</span>) <span class="comment">#---&gt;&quot;W指的是&quot;write&quot;，即写入模式</span></span><br><span class="line">     <span class="built_in">print</span>(<span class="string">&quot;Hello,I&#x27;m JY!&quot;</span>,file=jy) <span class="comment">#---&gt;将文件打开，并写入内容</span></span><br><span class="line">     jy.close()<span class="comment">#---&gt;关闭文件</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-#end 
+`end` 
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	 <span class="built_in">print</span>(<span class="string">&#x27;jiu&#x27;</span>,end=<span class="string">&#x27;---&gt;&#x27;</span>)</span><br><span class="line">	 <span class="built_in">print</span>(<span class="string">&#x27;yingshi&#x27;</span>) <span class="comment"># 因为没有修改end参数，所以默认&quot;print&quot;之后会换行</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-#input
+`input`
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	name=<span class="built_in">input</span>(<span class="string">&#x27;请输入你的姓名：&#x27;</span>) <span class="comment">#---&gt;定义一个输入语句为&quot;name&quot;</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&quot;你的姓名是：&quot;</span>+ name) <span class="comment">#---&gt;输出反馈的&quot;name&quot;含义</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-#int
+`int`
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	num=<span class="built_in">input</span>(<span class="string">&#x27;请输入你的数字ID：&#x27;</span>)</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&quot;你的数字ID是：&quot;</span>+ num) <span class="comment">#---&gt;此时的num为字符串类型</span></span><br><span class="line">	num=<span class="built_in">int</span>(num) <span class="comment">#---&gt;使用内置函数&quot;int&quot;将字符串类型转换为整数类型</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;你的数字ID是：&#x27;</span>,num) <span class="comment">#---&gt;此时的num为整数类型</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-#注释
+`注释`
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># coding: utf-8</span></span><br><span class="line"><span class="comment">#这个是中文声明注释</span></span><br><span class="line"><span class="comment">#可以确保另存文件时的编码格式</span></span><br><span class="line"><span class="comment">#他必须要写在文件的第一行</span></span><br></pre></td></tr></table></figure></div>
-## #保留字
+## `保留字`
 >指在Python中被赋予了特定意义的单词，开发程序时不建议把这些单词作为变量、函数、类、模块和其他对象的名称来使用。
 
 <table>
@@ -120,24 +117,15 @@
 </tr>
 </tbody></table>
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	<span class="keyword">import</span> keyword <span class="comment">#---&gt;&#x27;keyword&#x27;是Python的内置模块，用于检查是否为关键字。</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">len</span>(keyword.kwlist)) <span class="comment">#---&gt;&#x27;len()&#x27;打印关键字的数量。</span></span><br><span class="line">	<span class="built_in">print</span>(keyword.kwlist)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>#type #Python的性质</p>
+<p><code>type</code> <code>Python的性质</code></p>
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	luck_number=<span class="number">9</span> <span class="comment">#---&gt;&#x27;int&#x27;类型</span></span><br><span class="line">	name=<span class="string">&#x27;HS&#x27;</span><span class="comment">#---&gt;&#x27;str&#x27;类型</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;luck_number的数据类型是:&#x27;</span>,<span class="built_in">type</span>(luck_number)) <span class="comment">#---&gt;内置函数type()，检查输出数据的类型</span></span><br><span class="line">	<span class="built_in">print</span>(name,<span class="string">&#x27;的幸运数字是：&#x27;</span>,luck_number)</span><br><span class="line">	luck_number=<span class="string">&#x27;JiuYing&#x27;</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="string">&#x27;luck_number的数据类型是:&#x27;</span>,<span class="built_in">type</span>(luck_number)) <span class="comment">#---&gt;通过这条输出信息，证明Python是动态修改变量的类型</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
-<p>#id #Python允许多个变量指向同一值 </p>
+<p><code>id</code> <code>Python允许多个变量指向同一值</code></p>
 <div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">	no=number=first=<span class="number">1</span></span><br><span class="line">	<span class="built_in">print</span>(no,number,first)</span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(no)) <span class="comment">#---&gt;通过内置函数&#x27;id()&#x27;查看对象的内存地址</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(number)) <span class="comment">#---&gt;三个的内存地址都相同说明赋值的是同一个对象</span></span><br><span class="line">	<span class="built_in">print</span>(<span class="built_in">id</span>(first))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
 <p>在语句含义中遇到开头为 r 或者 R 的时候，会使后面的转义字符失效，使它们按照原文进行输出</p>
 ]]></content>
       <tags>
+        <tag>学习</tag>
         <tag>记录Ascll码的对应数字：</tag>
-        <tag>open</tag>
-        <tag>end</tag>
-        <tag>input</tag>
-        <tag>int</tag>
-        <tag>注释</tag>
-        <tag>保留字</tag>
-        <tag>type</tag>
-        <tag>Python的性质</tag>
-        <tag>id</tag>
-        <tag>Python允许多个变量指向同一值</tag>
       </tags>
   </entry>
   <entry>
@@ -751,20 +739,20 @@
 <h1 id="GIT-BUSH-提交新仓库"><a href="#GIT-BUSH-提交新仓库" class="headerlink" title="GIT BUSH 提交新仓库"></a>GIT BUSH 提交新仓库</h1><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line">git remote add ** git@github.com/JIUYINGSHI/**.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u ** main</span><br></pre></td></tr></table></figure></div>
 
 <h1 id="入门学习"><a href="#入门学习" class="headerlink" title="入门学习"></a>入门学习</h1><ol>
-<li>#注释 #保留字 #Python的性质 #Python允许多个变量指向同一值</li>
+<li><code>注释</code> <code>保留字</code> <code>Python的性质</code> <code>Python允许多个变量指向同一值</code></li>
 </ol>
 <h2 id="基本逻辑语法："><a href="#基本逻辑语法：" class="headerlink" title="基本逻辑语法："></a>基本逻辑语法：</h2><h3 id="输入语句："><a href="#输入语句：" class="headerlink" title="输入语句："></a>输入语句：</h3><ol>
-<li>#print<br> &#x3D;&#x3D;<strong>输出函数</strong>&#x3D;&#x3D;</li>
-<li>#chr<br> &#x3D;&#x3D;<strong>Ascll编码</strong>&#x3D;&#x3D;</li>
-<li>#ord<br> &#x3D;&#x3D;<strong>Unicode编码</strong>&#x3D;&#x3D;  </li>
-<li>#open<br> &#x3D;&#x3D;打开文件并指定写入&#x3D;&#x3D;</li>
-<li>#end<br> &#x3D;&#x3D;<strong>结束时的输出语句</strong>&#x3D;&#x3D;</li>
+<li><code>print</code><br> &#x3D;&#x3D;<strong>输出函数</strong>&#x3D;&#x3D;</li>
+<li><code>chr</code><br> &#x3D;&#x3D;<strong>Ascll编码</strong>&#x3D;&#x3D;</li>
+<li><code>ord</code><br> &#x3D;&#x3D;<strong>Unicode编码</strong>&#x3D;&#x3D;  </li>
+<li><code>open</code><br> &#x3D;&#x3D;打开文件并指定写入&#x3D;&#x3D;</li>
+<li><code>end</code><br> &#x3D;&#x3D;<strong>结束时的输出语句</strong>&#x3D;&#x3D;</li>
 </ol>
 <h3 id="输出语句："><a href="#输出语句：" class="headerlink" title="输出语句："></a>输出语句：</h3><ol>
-<li>#input<br> &#x3D;&#x3D;输入语句&#x3D;&#x3D;</li>
-<li>#int<br> &#x3D;&#x3D;内置函数将字符串转为整数&#x3D;&#x3D;</li>
-<li>#type<br> &#x3D;&#x3D;内置函数检查输出数据的类型&#x3D;&#x3D;</li>
-<li>#id<br> &#x3D;&#x3D;内置函数检查对象的储存地址&#x3D;&#x3D;</li>
+<li><code>input</code><br> &#x3D;&#x3D;输入语句&#x3D;&#x3D;</li>
+<li><code>int</code><br> &#x3D;&#x3D;内置函数将字符串转为整数&#x3D;&#x3D;</li>
+<li><code>type</code><br> &#x3D;&#x3D;内置函数检查输出数据的类型&#x3D;&#x3D;</li>
+<li><code>id</code><br> &#x3D;&#x3D;内置函数检查对象的储存地址&#x3D;&#x3D;</li>
 </ol>
 <hr>
 <p>个人网页展示：<a href="https://jiu.rovn.ink/" title="这个套用的是模板，之后一定要自己做一个"><strong>JIU</strong></a></p>
@@ -788,19 +776,7 @@
 
 <iframe width= 560px height= 315px src="https://player.bilibili.com/player.html?aid=712020469&bvid=BV1wD4y1o7AS&cid=1298431480&p=15&&autoplay=0&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       <tags>
-        <tag>open</tag>
-        <tag>end</tag>
-        <tag>input</tag>
-        <tag>int</tag>
-        <tag>注释</tag>
-        <tag>保留字</tag>
-        <tag>type</tag>
-        <tag>Python的性质</tag>
-        <tag>id</tag>
-        <tag>Python允许多个变量指向同一值</tag>
-        <tag>print</tag>
-        <tag>chr</tag>
-        <tag>ord</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
