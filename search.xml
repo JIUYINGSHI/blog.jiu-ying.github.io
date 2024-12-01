@@ -23,7 +23,7 @@
   <entry>
     <title>Nilesoft-Shell配置</title>
     <url>/2024/12/01/Nilesoft-Shell%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="NILESOFT-SHELL配置"><a href="#NILESOFT-SHELL配置" class="headerlink" title="NILESOFT-SHELL配置"></a>NILESOFT-SHELL配置</h1><p>先把本体下载下来</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="NILESOFT-SHELL配置"><a href="#NILESOFT-SHELL配置" class="headerlink" title="NILESOFT-SHELL配置"></a>NILESOFT-SHELL配置</h1><p>先把 <a class="link"   href="https://nilesoft.org/download" >本体<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>下载下来</p>
 <div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">winget install nilesoft.shell</span><br></pre></td></tr></table></figure></div>
 
 <p>如果使用<code>winget</code>的话，安装目录会在<code>C:\Program Files\Nilesoft Shell</code></p>
@@ -37,10 +37,11 @@
 <p>此外，对更目录下的<code>shell.nss</code>做了一些修改，去除了一些不需要的菜单项</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">remove(find = &quot;NVIDIA Control Panel | 更换壁纸 | 更换电脑主题 | WizTree | Open Folder as IntelliJ IDEA Project | Open Git GUI here | Open Git Bash here | ArmouryCrate | Open with Visual Studio | Go To | Sort By&quot;)</span><br><span class="line"></span><br><span class="line">remove(find = &quot;发送到手机 | 上传到夸克网盘 | 彻底粉碎文件 | 上传到百度网盘 | 同步至其它设备 | 添加到* | Move to* | Scan with*&quot;)</span><br></pre></td></tr></table></figure></div>
 
-<p>添加了以上代码，然后点开根目录下的<code>shell.exe</code>，重启之后就可以看到效果了。</p>
+<p>添加了以上代码，按住 Shift 并右键单击任务栏，单击<code>退出资源管理器</code>。重启之后就可以看到效果了。</p>
 ]]></content>
       <tags>
         <tag>应用</tag>
+        <tag>使用优化</tag>
       </tags>
   </entry>
   <entry>
