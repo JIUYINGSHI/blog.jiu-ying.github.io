@@ -254,15 +254,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>推荐总集</title>
+    <title>个人必装mods</title>
     <url>/2024/12/01/%E4%B8%AA%E4%BA%BA%E5%BF%85%E8%A3%85mods/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人必装MODS"><a href="#个人必装MODS" class="headerlink" title="个人必装MODS"></a>个人必装MODS</h1><hr>
 <ul>
 <li><em><strong><a class="link"   href="https://modrinth.com/mod/shared-resources" >Shared Resources<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></strong></em><br>所有的隔离版本由你自己选择是否共享资源</li>
 <li><em><strong>DFU载入优化</strong></em></li>
 <li>essential mod<em>网络要求高，可以游戏内更换账号，游戏内与好友通讯，托管世界</em></li>
 <li>增强视觉效果</li>
-<li>***Auditory  Continued <em>点击音效</em> ***</li>
+<li>***Auditory Continued <em>点击音效</em> ***</li>
 <li>**<em>Sounds</em>游戏添加了许多交互的音效* ***</li>
 <li><em><strong>动态环绕</strong></em></li>
 <li>物理声效重制版</li>
@@ -385,8 +385,8 @@
 <li><em><strong>多槽位备份 &#x2F;qb</strong></em></li>
 <li><em><strong>自定义局域网联机</strong></em></li>
 <li>Adaptive Tooltips <em>完整显示提示框</em></li>
-<li><em><strong>Asteor的状态栏和血量显示  (优先选择)</strong></em></li>
-<li><em><strong>Status Effect Bars    为状态效果叠加层和物品栏中添加可自定义的小状态条</strong></em></li>
+<li><em><strong>Asteor的状态栏和血量显示 (优先选择)</strong></em></li>
+<li><em><strong>Status Effect Bars 为状态效果叠加层和物品栏中添加可自定义的小状态条</strong></em></li>
 <li>*** Halo HUD <em>将各类信息显示围绕在准星</em> ***</li>
 <li>Clean Tooltips <em>附魔颜色显示</em> </li>
 <li>FastAnim <em>优化减少生物视角角度</em></li>
@@ -408,6 +408,10 @@
 </li>
 </ul>
 ]]></content>
+      <tags>
+        <tag>Minecraft</tag>
+        <tag>Mod推荐</tag>
+      </tags>
   </entry>
   <entry>
     <title>关于AI人设的模板设置</title>
