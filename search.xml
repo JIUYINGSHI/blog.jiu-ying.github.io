@@ -822,11 +822,14 @@
 <li>子项的名称可以创建<code>MUIVerb</code>的字符值进行命名</li>
 </ol>
 <hr>
-<h1 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h1><h3 id="创建一个重启进入BIOS的菜单"><a href="#创建一个重启进入BIOS的菜单" class="headerlink" title="创建一个重启进入BIOS的菜单"></a>创建一个重启进入BIOS的菜单</h3><blockquote>
+<h1 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h1><h2 id="创建一个重启进入BIOS的菜单"><a href="#创建一个重启进入BIOS的菜单" class="headerlink" title="创建一个重启进入BIOS的菜单"></a>创建一个重启进入BIOS的菜单</h2><blockquote>
 <p><code>win+r</code>输入<code>regedit</code><br>导航到<code>计算机\HKEY_CLASSES_ROOT\DesktopBackground\Shell</code><br>右键创建项<code>休眠和重启</code><br>项内右键创建字符串值<code>SubCommands</code><br>右键项<code>休眠和重启</code>新建子项<code>Shell</code><br>右键项<code>Shell</code>新建子项<code>Item0</code> <code>Item1</code> <code>Item2</code> <code>Item3</code><br>并分别给每个类项创建<code>MUIVerb</code>字符串，值为<code>休眠</code> <code>重启(不更新)</code> <code>关机(不更新)</code> <code>重启并进入BIOS</code><br>给<code>重启并进入BIOS</code>创建<code>Icon</code>的字符串，值为<code>shell32.dll,12</code><br>接下来给每个<code>Item</code>项创建子项<code>Command</code>，并分别修改里面的默认字符串<br>休眠&gt;<code>rundll32.exe powrprof.dll,SetSuspendState 0,1,0</code><br>重启(不更新)&gt;<code>shutdown.exe /r /t 0</code><br>关机(不更新)&gt;<code>shutdown.exe /s /t 0</code><br>重启并进入BIOS&gt;<code>shutdown -r -fw -t 0</code></p>
 </blockquote>
 <hr>
 ]]></content>
+      <tags>
+        <tag>使用优化</tag>
+      </tags>
   </entry>
   <entry>
     <title>解决文件无法拖入qq微信浏览器等软件的解决办法</title>
