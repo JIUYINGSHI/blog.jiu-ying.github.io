@@ -194,12 +194,12 @@
       </tags>
   </entry>
   <entry>
-    <title>qBittorrentd的RSS订阅无反应解决方案</title>
+    <title>qBittorrent的RSS订阅无反应-添加代理解决方案</title>
     <url>/2024/12/01/qBittorrent%E7%9A%84RSS%E8%AE%A2%E9%98%85%E6%97%A0%E5%8F%8D%E5%BA%94-%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%90%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="QBITTORRENT的RSS订阅无反应-添加代理解决方案"><a href="#QBITTORRENT的RSS订阅无反应-添加代理解决方案" class="headerlink" title="QBITTORRENT的RSS订阅无反应-添加代理解决方案"></a>QBITTORRENT的RSS订阅无反应-添加代理解决方案</h1><blockquote>
 <p>首先会正常使用<code>Clash for Windows</code>，并选择一个可使用节点<br>打开<code>允许局域网代理</code>、<code>服务模式</code>(即地球图标显示为绿色)<code>TUN模式</code><br>如<code>服务模式</code>无法自动安装走接下来的<code>服务模式手动安装</code>，如安装成功可跳转<code>qBittorrent内设置</code></p>
 </blockquote>
-<h3 id="服务模式手动安装"><a href="#服务模式手动安装" class="headerlink" title="服务模式手动安装"></a><code>服务模式</code>手动安装</h3><ol>
+<h2 id="服务模式手动安装"><a href="#服务模式手动安装" class="headerlink" title="服务模式手动安装"></a><code>服务模式</code>手动安装</h2><ol>
 <li>在一个你中意的盘符里创建<code>Clash for Windows Service</code>文件夹</li>
 <li>打开<code>Clash for Windows</code>的文件所在位置</li>
 <li>在文件路径内依次点开<code>resource\static\files\win\x64\service</code>,复制<code>clash-core-service.exe</code>和<code>service.exe</code>到刚刚创建的文件夹内</li>
@@ -210,7 +210,7 @@
 <li>输入<code>service.exe install</code>和<code>service.exe install</code>以安装<code>Service</code>并重启<code>Clash for Windows</code></li>
 <li>此时地球图标应该已经绿色，如果仍然不行请寻找其他解决方案或者卸载重新安装</li>
 </ol>
-<h3 id="qBittorrent内设置"><a href="#qBittorrent内设置" class="headerlink" title="qBittorrent内设置"></a><code>qBittorrent</code>内设置</h3><blockquote>
+<h2 id="qBittorrent内设置"><a href="#qBittorrent内设置" class="headerlink" title="qBittorrent内设置"></a><code>qBittorrent</code>内设置</h2><blockquote>
 <p>打开qBittorrent→设置→连接<br>代理服务项内:<br>类型选<code>SOCKS5</code><br>主机填<code>localhost</code><br>端口填写个人clash页面内显示的端口号(默认应该都是<code>7890</code>)<br>去除代理项内其他勾选，只勾选<code>对RSS目的使用代理</code></p>
 </blockquote>
 ]]></content>
@@ -530,9 +530,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>指定安装目录位置的方法</title>
     <url>/2024/12/01/%E6%8C%87%E5%AE%9A%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E4%BD%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">.\defult.exe install <span class="literal">--installation-dir</span>=<span class="string">&quot;路径&quot;</span></span><br></pre></td></tr></table></figure></div>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="指定安装目录位置的方法"><a href="#指定安装目录位置的方法" class="headerlink" title="指定安装目录位置的方法"></a>指定安装目录位置的方法</h1><div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">.\defult.exe install <span class="literal">--installation-dir</span>=<span class="string">&quot;路径&quot;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
   </entry>
   <entry>
