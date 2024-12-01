@@ -831,10 +831,10 @@
   <entry>
     <title>解决文件无法拖入qq微信浏览器等软件的解决办法</title>
     <url>/2024/12/01/%E8%A7%A3%E5%86%B3%E6%96%87%E4%BB%B6%E6%97%A0%E6%B3%95%E6%8B%96%E5%85%A5qq%E5%BE%AE%E4%BF%A1%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AD%89%E8%BD%AF%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="解决文件无法拖入QQ微信浏览器等软件的解决办法"><a href="#解决文件无法拖入QQ微信浏览器等软件的解决办法" class="headerlink" title="解决文件无法拖入QQ微信浏览器等软件的解决办法"></a>解决文件无法拖入QQ微信浏览器等软件的解决办法</h1><blockquote>
 <p><code>win+r</code>输入<code>regedit</code><br>导航到</p>
 </blockquote>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system</span><br></pre></td></tr></table></figure></div>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system</span><br></pre></td></tr></table></figure></div>
 <blockquote>
 <p>右侧项值找到<code>EnableLUA</code><br>将项值改为<code>0</code>，重启解决，或者重启后第一时间改值</p>
 </blockquote>
