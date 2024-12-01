@@ -106,21 +106,21 @@
   <entry>
     <title>UWP代理</title>
     <url>/2024/12/01/UWP%E4%BB%A3%E7%90%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h3><p>   有关UWP应用的详细介绍，可以查阅Wiki的相关词条：<a class="link"   href="https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8Windows%E5%B9%B3%E5%8F%B0" >Universal Windows Platform<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
-<h3 id="但当我们使用这些UWP应用时，可能有时会遇到这种情况"><a href="#但当我们使用这些UWP应用时，可能有时会遇到这种情况" class="headerlink" title="但当我们使用这些UWP应用时，可能有时会遇到这种情况:"></a>但当我们使用这些UWP应用时，可能有时会遇到这种情况:</h3><p>（打开UWP版bilibili之后）诶，这个番剧是锁区的？还好我有其他地区的代理，挂上之后再看！）<br>（啧啧啧，UWP版本的推特界面还挺好看，我不会再想用浏览器登录了！）<br><strong>诸如此类</strong><br><strong>但当我们自信的打开代理软件</strong><del>（比如说小飞机 ）</del> <strong>之后，却发现不该连上的网站还是连不上，看不了的番剧还是看不了…</strong><br><strong>其实，并不是我们的代理出现了问题，而是在Windows系统中，默认是不允许这些UWP应用走代理网络的。</strong></p>
-<h3 id="这里有两种解决办法，个人推荐第一种——"><a href="#这里有两种解决办法，个人推荐第一种——" class="headerlink" title="这里有两种解决办法，个人推荐第一种——"></a>这里有两种解决办法，个人推荐第一种——</h3><h4 id="1-无需任何软件进行开放代理"><a href="#1-无需任何软件进行开放代理" class="headerlink" title="1. 无需任何软件进行开放代理"></a>1. 无需任何软件进行开放代理</h4><h6 id="1-通过注册表获取应用的-SID"><a href="#1-通过注册表获取应用的-SID" class="headerlink" title="1. 通过注册表获取应用的 SID"></a>1. 通过注册表获取应用的 SID</h6><p>首先通过 Win + R 快捷键打开「运行」窗口，输入<code>Regedit</code>打开注册表编辑器，然后定位到 <code>HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings</code> ，接着在左边的注册表项中找到你想解除网络隔离的应用（这里以<code>哔哩哔哩UWP</code>为例），右边的 <code>DisplayName</code> 就是应用名称，而左边那一大串字符就是应用的 <code>SID</code> 值了<br><img  
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="UWP代理"><a href="#UWP代理" class="headerlink" title="UWP代理"></a>UWP代理</h1><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>   有关UWP应用的详细介绍，可以查阅Wiki的相关词条：<a class="link"   href="https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8Windows%E5%B9%B3%E5%8F%B0" >Universal Windows Platform<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<h2 id="但当我们使用这些UWP应用时，可能有时会遇到这种情况"><a href="#但当我们使用这些UWP应用时，可能有时会遇到这种情况" class="headerlink" title="但当我们使用这些UWP应用时，可能有时会遇到这种情况:"></a>但当我们使用这些UWP应用时，可能有时会遇到这种情况:</h2><p>（打开UWP版bilibili之后）诶，这个番剧是锁区的？还好我有其他地区的代理，挂上之后再看！）<br>（啧啧啧，UWP版本的推特界面还挺好看，我不会再想用浏览器登录了！）<br><strong>诸如此类</strong><br><strong>但当我们自信的打开代理软件</strong><del>（比如说小飞机 ）</del> <strong>之后，却发现不该连上的网站还是连不上，看不了的番剧还是看不了…</strong><br><strong>其实，并不是我们的代理出现了问题，而是在Windows系统中，默认是不允许这些UWP应用走代理网络的。</strong></p>
+<h2 id="这里有两种解决办法，个人推荐第一种——"><a href="#这里有两种解决办法，个人推荐第一种——" class="headerlink" title="这里有两种解决办法，个人推荐第一种——"></a>这里有两种解决办法，个人推荐第一种——</h2><h3 id="1-无需任何软件进行开放代理"><a href="#1-无需任何软件进行开放代理" class="headerlink" title="1. 无需任何软件进行开放代理"></a>1. 无需任何软件进行开放代理</h3><h4 id="1-通过注册表获取应用的-SID"><a href="#1-通过注册表获取应用的-SID" class="headerlink" title="1. 通过注册表获取应用的 SID"></a>1. 通过注册表获取应用的 SID</h4><p>首先通过 Win + R 快捷键打开「运行」窗口，输入<code>Regedit</code>打开注册表编辑器，然后定位到 <code>HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings</code> ，接着在左边的注册表项中找到你想解除网络隔离的应用（这里以<code>哔哩哔哩UWP</code>为例），右边的 <code>DisplayName</code> 就是应用名称，而左边那一大串字符就是应用的 <code>SID</code> 值了<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://s2.loli.net/2024/12/01/LHmzMeOZUvPX2iQ.png"
                       alt="image.png"
                 ><br><strong>复制应用的<code>SID</code></strong></p>
-<h6 id="2-打开-Power-Shell-面板"><a href="#2-打开-Power-Shell-面板" class="headerlink" title="2. 打开 Power Shell 面板"></a>2. 打开 Power Shell 面板</h6><p>输入 <code>CheckNetIsolation.exe loopbackexempt -a -p=SID</code>（<code>SID</code>就是上一步复制的<code>SID</code>），出现<code>完成</code>后就大功告成了。<br><img  
+<h4 id="2-打开-POWER-SHELL-面板"><a href="#2-打开-POWER-SHELL-面板" class="headerlink" title="2. 打开 POWER SHELL 面板"></a>2. 打开 POWER SHELL 面板</h4><p>输入 <code>CheckNetIsolation.exe loopbackexempt -a -p=SID</code>（<code>SID</code>就是上一步复制的<code>SID</code>），出现<code>完成</code>后就大功告成了。<br><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://s2.loli.net/2024/12/01/i6w1veOnDHZdU8W.png"
                      
                 ></p>
-<h4 id="2-通过网络安全调试工具进行开放"><a href="#2-通过网络安全调试工具进行开放" class="headerlink" title="2. 通过网络安全调试工具进行开放"></a>2. 通过网络安全调试工具进行开放</h4><h6 id="1-首先下载安装网络调试工具-Fiddler"><a href="#1-首先下载安装网络调试工具-Fiddler" class="headerlink" title="1. 首先下载安装网络调试工具 Fiddler"></a>1. 首先下载安装网络调试工具 <a class="link"   href="https://www.telerik.com/fiddler" >Fiddler<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h6><p><img  
+<h3 id="2-通过网络安全调试工具进行开放"><a href="#2-通过网络安全调试工具进行开放" class="headerlink" title="2. 通过网络安全调试工具进行开放"></a>2. 通过网络安全调试工具进行开放</h3><h4 id="1-首先下载安装网络调试工具-Fiddler"><a href="#1-首先下载安装网络调试工具-Fiddler" class="headerlink" title="1. 首先下载安装网络调试工具 Fiddler"></a>1. 首先下载安装网络调试工具 <a class="link"   href="https://www.telerik.com/fiddler" >Fiddler<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></h4><p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://s2.loli.net/2024/12/01/awhDKcArgY3Vbeq.png"
@@ -131,7 +131,7 @@
                      data-src="https://s2.loli.net/2024/12/01/XhOCgHqTowUypak.png"
                       alt="image.png"
                 ><br><strong>这时会要求填写用途、电子邮件，看着填就行了</strong></p>
-<h6 id="2-下载安装完成后，打开它"><a href="#2-下载安装完成后，打开它" class="headerlink" title="2. 下载安装完成后，打开它"></a>2. 下载安装完成后，打开它</h6><h6 id="3-点击WinConfig"><a href="#3-点击WinConfig" class="headerlink" title="3. 点击WinConfig"></a>3. 点击<code>WinConfig</code></h6><p><img  
+<h4 id="2-下载安装完成后，打开它"><a href="#2-下载安装完成后，打开它" class="headerlink" title="2. 下载安装完成后，打开它"></a>2. 下载安装完成后，打开它</h4><h4 id="3-点击WinConfig"><a href="#3-点击WinConfig" class="headerlink" title="3. 点击WinConfig"></a>3. 点击<code>WinConfig</code></h4><p><img  
                      lazyload
                      src="/images/loading.svg"
                      data-src="https://s2.loli.net/2024/12/01/nMR6N7Ct2zqYF4l.png"
@@ -142,7 +142,7 @@
                      data-src="https://s2.loli.net/2024/12/01/FZkNCwhfLURWpA3.png"
                       alt="image.png"
                 ></p>
-<h6 id="4-在新弹出来的窗口中勾选你要允许的应用，点击Save-Changes即可"><a href="#4-在新弹出来的窗口中勾选你要允许的应用，点击Save-Changes即可" class="headerlink" title="4. 在新弹出来的窗口中勾选你要允许的应用，点击Save Changes即可"></a>4. 在新弹出来的窗口中勾选你要允许的应用，点击<code>Save Changes</code>即可</h6><h6 id="5-亦可直接点击Exempt-All来允许所有的应用"><a href="#5-亦可直接点击Exempt-All来允许所有的应用" class="headerlink" title="5. 亦可直接点击Exempt All来允许所有的应用"></a>5. 亦可直接点击<code>Exempt All</code>来允许所有的应用</h6><p>这时再打开 <code>UWP</code> 应用，你应该就能愉快的做自己想做的事情了。</p>
+<h4 id="4-在新弹出来的窗口中勾选你要允许的应用，点击Save-Changes即可"><a href="#4-在新弹出来的窗口中勾选你要允许的应用，点击Save-Changes即可" class="headerlink" title="4. 在新弹出来的窗口中勾选你要允许的应用，点击Save Changes即可"></a>4. 在新弹出来的窗口中勾选你要允许的应用，点击<code>Save Changes</code>即可</h4><h4 id="5-亦可直接点击Exempt-All来允许所有的应用"><a href="#5-亦可直接点击Exempt-All来允许所有的应用" class="headerlink" title="5. 亦可直接点击Exempt All来允许所有的应用"></a>5. 亦可直接点击<code>Exempt All</code>来允许所有的应用</h4><p>这时再打开 <code>UWP</code> 应用，你应该就能愉快的做自己想做的事情了。</p>
 ]]></content>
       <tags>
         <tag>应用</tag>
