@@ -843,6 +843,9 @@
 <p>右侧项值找到<code>EnableLUA</code><br>将项值改为<code>0</code>，重启解决，或者重启后第一时间改值</p>
 </blockquote>
 ]]></content>
+      <tags>
+        <tag>问题解答</tag>
+      </tags>
   </entry>
   <entry>
     <title>趣味mod</title>
