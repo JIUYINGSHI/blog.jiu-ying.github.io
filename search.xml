@@ -232,9 +232,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>个人审美材质包</title>
+    <title>个人审美的材质包</title>
     <url>/2024/12/01/%E4%B8%AA%E4%BA%BA%E5%AE%A1%E7%BE%8E%E7%9A%84%E6%9D%90%E8%B4%A8%E5%8C%85/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人审美的材质包"><a href="#个人审美的材质包" class="headerlink" title="个人审美的材质包"></a>个人审美的材质包</h1><hr>
 <ul>
 <li><a class="link"   href="https://www.curseforge.com/members/xalixilax/projects" >xali的材质包<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
 <li>零雾构想</li>
@@ -252,6 +252,10 @@
 <li>SkyBoxes <em>允许材质包自定义天空盒</em></li>
 </ul>
 ]]></content>
+      <tags>
+        <tag>Minecraft</tag>
+        <tag>材质</tag>
+      </tags>
   </entry>
   <entry>
     <title>个人必装mods</title>
