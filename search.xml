@@ -571,6 +571,9 @@
     <url>/2024/12/01/%E6%8C%87%E5%AE%9A%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E4%BD%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="指定安装目录位置的方法"><a href="#指定安装目录位置的方法" class="headerlink" title="指定安装目录位置的方法"></a>指定安装目录位置的方法</h1><div class="highlight-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">.\defult.exe install <span class="literal">--installation-dir</span>=<span class="string">&quot;路径&quot;</span></span><br></pre></td></tr></table></figure></div>
 ]]></content>
+      <tags>
+        <tag>问题解答</tag>
+      </tags>
   </entry>
   <entry>
     <title>生电mods</title>
