@@ -821,7 +821,7 @@
 
   <div class="note-large red">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>fa-circle-exclamation</p>
+      <i class="notel-icon fa-solid fa-circle-exclamation"></i><p>叠甲环节</p>
 
     </div>
     <div class="notel-content">
@@ -835,7 +835,7 @@
     </div>
   </div>
 
-<h2 id="叠甲结束"><a href="#叠甲结束" class="headerlink" title="&#x3D;&#x3D;叠甲结束&#x3D;&#x3D;"></a><em><strong>&#x3D;&#x3D;叠甲结束&#x3D;&#x3D;</strong></em></h2><h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程!"></a>开始教程!</h2><p>关于查弹幕评论成分的方法还是挺多的</p>
+<h2 id="叠甲结束"><a href="#叠甲结束" class="headerlink" title="叠甲结束"></a><em><strong>叠甲结束</strong></em></h2><h2 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程!"></a>开始教程!</h2><p>关于查弹幕评论成分的方法还是挺多的</p>
 <div class="tabs" id="tab-view-rape"><ul class="nav-tabs"><li class="tab active"><a class="#view-rape-1">查询弹幕UID</a></li><li class="tab"><a class="#view-rape-2">历史评论</a></li></ul><div class="tab-content"><div class="tab-pane active" id="view-rape-1"><p>有两种办法</p>
 <h3 id="1-第三方网站直接扒取"><a href="#1-第三方网站直接扒取" class="headerlink" title="1. 第三方网站直接扒取"></a>1. 第三方网站直接扒取</h3><p><a class="button  center large" href='<http://chtool-www.lxsjfx.cn/bili_danmu>' title='弹幕查询'><i class='fa-solid fa-share-from-square'></i> 弹幕查询</a></p>
 <p> 如图,先复制下视频的链接填入框内,再提供你需要查询的弹幕文本,就可以获取该用户的mid了</p>
