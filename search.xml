@@ -767,13 +767,7 @@
 <li><code>id</code><br> &#x3D;&#x3D;内置函数检查对象的储存地址&#x3D;&#x3D;</li>
 </ol>
 <hr>
-<a class="button  center large" href='https://blog.jiu-ying.top/' title='个人博客展示'><i class='fa-solid fa-blog'></i> 个人博客展示</a>
-<hr>
-<a class="button  center large" href='https:/bugfree.cc' title='Python练习免费网站'><i class='fa-brands fa-python'></i> Python练习免费网站</a>
-<hr>
-<a class="button  center large" href='https://markdown.com.cn/basic-syntax/' title='Markdown语法学习'><i class='fa-brands fa-markdown'></i> Markdown语法学习</a>
-<hr>
-<a class="button  center large" href='https://fontawesome.com/search' title='API图标搜索'><i class='fa-solid fa-share-from-square'></i> API图标搜索</a>
+<a class="button  center regular" href='https://web.jiu-ying.top/' title='个人网站展示'><i class='fa-solid fa-blog'></i> 个人网站展示</a> <a class="button  center regular" href='https:/bugfree.cc' title='Python练习免费网站'><i class='fa-brands fa-python'></i> Python练习免费网站</a> <a class="button  center regular" href='https://markdown.com.cn/basic-syntax/' title='Markdown语法学习'><i class='fa-brands fa-markdown'></i> Markdown语法学习</a> <a class="button  center regular" href='https://fontawesome.com/search' title='API图标搜索'><i class='fa-solid fa-share-from-square'></i> API图标搜索</a>
 <hr>
 <p>My best love ：<img  
                      lazyload
