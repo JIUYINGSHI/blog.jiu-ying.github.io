@@ -573,10 +573,13 @@
   <entry>
     <title>生电mods</title>
     <url>/2024/12/06/%E7%94%9F%E7%94%B5mods/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="生电MODS"><a href="#生电MODS" class="headerlink" title="生电MODS"></a>生电MODS</h1><ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="生电MODS"><a href="#生电MODS" class="headerlink" title="生电MODS"></a>生电MODS</h1><hr>
+<ul>
 <li><a class="link"   href="https://modrinth.com/mod/shared-resources" >所有的隔离版本由你自己选择是否共享资源<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Shared Resources</span><br></pre></td></tr></table></figure></div></li>
 <li><a class="link"   href="https://github.com/Fabulously-Optimized/fabulously-optimized" >Fabric端优化整合mod<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Fabulously Optimized</span><br></pre></td></tr></table></figure></div></li>
 </ul>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">OptiGUI</span><br></pre></td></tr></table></figure></div>
+
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">可拖动列表/可拖动资源包</span><br></pre></td></tr></table></figure></div>
 
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">存档置顶</span><br></pre></td></tr></table></figure></div>
@@ -597,7 +600,8 @@
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Xaero的小地图</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Xaero的地图增强</span><br></pre></td></tr></table></figure></div></li>
 <li>动态<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">动态准星</span><br></pre></td></tr></table></figure></div>
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">动态准星兼容</span><br></pre></td></tr></table></figure></div></li>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">动态准星兼容</span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">准星摇晃</span><br></pre></td></tr></table></figure></div></li>
 <li>钠<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">钠 · 扩展</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">iris shaders</span><br></pre></td></tr></table></figure></div>
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Reese的钠视频界面</span><br></pre></td></tr></table></figure></div>
