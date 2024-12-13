@@ -561,8 +561,20 @@
     <url>/2024/12/13/%E7%94%9F%E7%94%B5mods/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="生电MODS"><a href="#生电MODS" class="headerlink" title="生电MODS"></a>生电MODS</h1><hr>
 <ul>
-<li><a class="link"   href="https://modrinth.com/mod/shared-resources" >所有的隔离版本由你自己选择是否共享资源<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Shared Resources</span><br></pre></td></tr></table></figure></div></li>
-<li><a class="link"   href="https://github.com/Fabulously-Optimized/fabulously-optimized" >Fabric端优化整合mod<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Fabulously Optimized</span><br></pre></td></tr></table></figure></div></li>
+<li><p><a class="link"   href="https://modrinth.com/mod/shared-resources" >所有的隔离版本由你自己选择是否共享资源<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Shared Resources</span><br></pre></td></tr></table></figure></div></li>
+<li><p><a class="link"   href="https://github.com/Fabulously-Optimized/fabulously-optimized" >Fabric端优化整合mod<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Fabulously Optimized</span><br></pre></td></tr></table></figure></div></li>
+<li><p>超强优化</p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Simply Optimized</span><br></pre></td></tr></table></figure></div></li>
+<li><p>低端机优化（限制最多50mod）</p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Performium</span><br></pre></td></tr></table></figure></div>
+<blockquote>
+<p>自带着色器，无缝连接，增强模型，鼠标控制等</p>
+</blockquote>
+</li>
+<li><p>轻量客&#x2F;服通用优化</p>
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">Adrenaline</span><br></pre></td></tr></table></figure></div></li>
 </ul>
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">OptiGUI</span><br></pre></td></tr></table></figure></div>
 
@@ -673,9 +685,8 @@
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">更好的统计信息界面</span><br></pre></td></tr></table></figure></div>
 
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">实体渲染机制优化</span><br></pre></td></tr></table></figure></div>
-
-<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">方块实体优化</span><br></pre></td></tr></table></figure></div>
 <ul>
+<li>EBE<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">方块实体优化</span><br></pre></td></tr></table></figure></div></li>
 <li>使用此替代崩溃优化，崩溃优化的内存占用过大<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">MixinTrace</span><br></pre></td></tr></table></figure></div></li>
 </ul>
 <div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">鼠标手势</span><br></pre></td></tr></table></figure></div>
@@ -740,6 +751,46 @@
       <tags>
         <tag>Minecraft</tag>
         <tag>Mod推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编程学习历程</title>
+    <url>/2024/12/13/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="GIT-BUSH-提交更新命令"><a href="#GIT-BUSH-提交更新命令" class="headerlink" title="GIT BUSH 提交更新命令"></a>GIT BUSH 提交更新命令</h1><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+
+<h1 id="GIT-BUSH-提交新仓库"><a href="#GIT-BUSH-提交新仓库" class="headerlink" title="GIT BUSH 提交新仓库"></a>GIT BUSH 提交新仓库</h1><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line">git remote add ** git@github.com/JIUYINGSHI/**.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u ** main</span><br></pre></td></tr></table></figure></div>
+
+<h1 id="入门学习"><a href="#入门学习" class="headerlink" title="入门学习"></a>入门学习</h1><ol>
+<li><code>注释</code> <code>保留字</code> <code>Python的性质</code> <code>Python允许多个变量指向同一值</code></li>
+</ol>
+<h2 id="基本逻辑语法："><a href="#基本逻辑语法：" class="headerlink" title="基本逻辑语法："></a>基本逻辑语法：</h2><h3 id="输入语句："><a href="#输入语句：" class="headerlink" title="输入语句："></a>输入语句：</h3><ol>
+<li><code>print</code><br> &#x3D;&#x3D;<strong>输出函数</strong>&#x3D;&#x3D;</li>
+<li><code>chr</code><br> &#x3D;&#x3D;<strong>Ascll编码</strong>&#x3D;&#x3D;</li>
+<li><code>ord</code><br> &#x3D;&#x3D;<strong>Unicode编码</strong>&#x3D;&#x3D;  </li>
+<li><code>open</code><br> &#x3D;&#x3D;打开文件并指定写入&#x3D;&#x3D;</li>
+<li><code>end</code><br> &#x3D;&#x3D;<strong>结束时的输出语句</strong>&#x3D;&#x3D;</li>
+</ol>
+<h3 id="输出语句："><a href="#输出语句：" class="headerlink" title="输出语句："></a>输出语句：</h3><ol>
+<li><code>input</code><br> &#x3D;&#x3D;输入语句&#x3D;&#x3D;</li>
+<li><code>int</code><br> &#x3D;&#x3D;内置函数将字符串转为整数&#x3D;&#x3D;</li>
+<li><code>type</code><br> &#x3D;&#x3D;内置函数检查输出数据的类型&#x3D;&#x3D;</li>
+<li><code>id</code><br> &#x3D;&#x3D;内置函数检查对象的储存地址&#x3D;&#x3D;</li>
+</ol>
+<hr>
+<a class="button  center regular" href='https://web.jiu-ying.top/' title='个人网站展示'><i class='fa-solid fa-blog'></i> 个人网站展示</a> <a class="button  center regular" href='https:/bugfree.cc' title='Python练习免费网站'><i class='fa-brands fa-python'></i> Python练习免费网站</a> <a class="button  center regular" href='https://markdown.com.cn/basic-syntax/' title='Markdown语法学习'><i class='fa-brands fa-markdown'></i> Markdown语法学习</a> <a class="button  center regular" href='https://fontawesome.com/search' title='API图标搜索'><i class='fa-solid fa-share-from-square'></i> API图标搜索</a>
+<hr>
+<p>My best love ：<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s2.loli.net/2024/03/22/5Htxku4WoQgXRBN.jpg"
+                      alt="**芙莉莲**"
+                ></p>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4xnsmyI5KMQ?si=FqWZNrFOwTAZiZDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width= 560px height= 315px src="https://player.bilibili.com/player.html?aid=712020469&bvid=BV1wD4y1o7AS&cid=1298431480&p=15&&autoplay=0&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <tags>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -828,46 +879,6 @@
 ]]></content>
       <tags>
         <tag>问题解答</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>编程学习历程</title>
-    <url>/2024/12/13/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="GIT-BUSH-提交更新命令"><a href="#GIT-BUSH-提交更新命令" class="headerlink" title="GIT BUSH 提交更新命令"></a>GIT BUSH 提交更新命令</h1><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
-
-<h1 id="GIT-BUSH-提交新仓库"><a href="#GIT-BUSH-提交新仓库" class="headerlink" title="GIT BUSH 提交新仓库"></a>GIT BUSH 提交新仓库</h1><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;第一次提交&quot;</span><br><span class="line">git remote add ** git@github.com/JIUYINGSHI/**.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u ** main</span><br></pre></td></tr></table></figure></div>
-
-<h1 id="入门学习"><a href="#入门学习" class="headerlink" title="入门学习"></a>入门学习</h1><ol>
-<li><code>注释</code> <code>保留字</code> <code>Python的性质</code> <code>Python允许多个变量指向同一值</code></li>
-</ol>
-<h2 id="基本逻辑语法："><a href="#基本逻辑语法：" class="headerlink" title="基本逻辑语法："></a>基本逻辑语法：</h2><h3 id="输入语句："><a href="#输入语句：" class="headerlink" title="输入语句："></a>输入语句：</h3><ol>
-<li><code>print</code><br> &#x3D;&#x3D;<strong>输出函数</strong>&#x3D;&#x3D;</li>
-<li><code>chr</code><br> &#x3D;&#x3D;<strong>Ascll编码</strong>&#x3D;&#x3D;</li>
-<li><code>ord</code><br> &#x3D;&#x3D;<strong>Unicode编码</strong>&#x3D;&#x3D;  </li>
-<li><code>open</code><br> &#x3D;&#x3D;打开文件并指定写入&#x3D;&#x3D;</li>
-<li><code>end</code><br> &#x3D;&#x3D;<strong>结束时的输出语句</strong>&#x3D;&#x3D;</li>
-</ol>
-<h3 id="输出语句："><a href="#输出语句：" class="headerlink" title="输出语句："></a>输出语句：</h3><ol>
-<li><code>input</code><br> &#x3D;&#x3D;输入语句&#x3D;&#x3D;</li>
-<li><code>int</code><br> &#x3D;&#x3D;内置函数将字符串转为整数&#x3D;&#x3D;</li>
-<li><code>type</code><br> &#x3D;&#x3D;内置函数检查输出数据的类型&#x3D;&#x3D;</li>
-<li><code>id</code><br> &#x3D;&#x3D;内置函数检查对象的储存地址&#x3D;&#x3D;</li>
-</ol>
-<hr>
-<a class="button  center regular" href='https://web.jiu-ying.top/' title='个人网站展示'><i class='fa-solid fa-blog'></i> 个人网站展示</a> <a class="button  center regular" href='https:/bugfree.cc' title='Python练习免费网站'><i class='fa-brands fa-python'></i> Python练习免费网站</a> <a class="button  center regular" href='https://markdown.com.cn/basic-syntax/' title='Markdown语法学习'><i class='fa-brands fa-markdown'></i> Markdown语法学习</a> <a class="button  center regular" href='https://fontawesome.com/search' title='API图标搜索'><i class='fa-solid fa-share-from-square'></i> API图标搜索</a>
-<hr>
-<p>My best love ：<img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s2.loli.net/2024/03/22/5Htxku4WoQgXRBN.jpg"
-                      alt="**芙莉莲**"
-                ></p>
-<hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4xnsmyI5KMQ?si=FqWZNrFOwTAZiZDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<iframe width= 560px height= 315px src="https://player.bilibili.com/player.html?aid=712020469&bvid=BV1wD4y1o7AS&cid=1298431480&p=15&&autoplay=0&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      <tags>
-        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
