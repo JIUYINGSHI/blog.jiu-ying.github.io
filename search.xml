@@ -234,21 +234,36 @@
     <title>个人审美的材质包</title>
     <url>/2024/12/13/%E4%B8%AA%E4%BA%BA%E5%AE%A1%E7%BE%8E%E7%9A%84%E6%9D%90%E8%B4%A8%E5%8C%85/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人审美的材质包"><a href="#个人审美的材质包" class="headerlink" title="个人审美的材质包"></a>个人审美的材质包</h1><hr>
+<a class="button  center regular" href='<https://modrinth.com/user/xalixilax>' title='xali的材质包'><i class='fa-solid fa-paintbrush'></i> xali的材质包</a> 
+
+<a class="button  center regular" href='<https://afdian.com/a/Fogg05?tab=feed>' title='零雾构想'><i class='fa-solid fa-paintbrush'></i> 零雾构想</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/pvp>' title='Vanilla PVP'><i class='fa-solid fa-paintbrush'></i> Vanilla PVP</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/icons>' title='Icons'><i class='fa-solid fa-paintbrush'></i> Icons</a> 
+
+<a class="button " href='Cherry Background' title='center regular'><i class='<https://modrinth.com/resourcepack/cherry-background> fa-paintbrush'></i> center regular</a>
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/xplus-font-pack>' title='xplus font pack'><i class='fa-solid fa-paintbrush'></i> xplus font pack</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/cozyui-plus>' title='CozyUI+'><i class='fa-solid fa-paintbrush'></i> CozyUI+</a>
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/masa-mod-translationpack>' title='MASA全家桶汉化包'><i class='fa-solid fa-paintbrush'></i> MASA全家桶汉化包</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/glass-bottom-boat-32x>' title='玻璃底船'><i class='fa-solid fa-paintbrush'></i> 玻璃底船</a>
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/50dA9Sha>' title='Fresh Animations'><i class='fa-solid fa-paintbrush'></i> Fresh Animations</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/enhanced-boss-bars>' title='增强的 Boss 栏'><i class='fa-solid fa-paintbrush'></i> 增强的 Boss 栏</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/icon-xaeros>' title='Icon Xaero's'><i class='fa-solid fa-paintbrush'></i> Icon Xaero's</a>
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/invisible-item-frames>' title='隐形物品框架'><i class='fa-solid fa-paintbrush'></i> 隐形物品框架</a> 
+
+<a class="button  center regular" href='<https://modrinth.com/resourcepack/dramatic-skys>' title='Dramatic Skys'><i class='fa-solid fa-paintbrush'></i> Dramatic Skys</a>
+
 <ul>
-<li><a class="link"   href="https://www.curseforge.com/members/xalixilax/projects" >xali的材质包<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
-<li>零雾构想</li>
-<li>0k+pvp</li>
-<li>Icons v.1.9.3§7</li>
-<li>§d§lCherry Background§r§0</li>
-<li>§d§字体MCsans+§r§0</li>
-<li>MASA全家桶汉化包</li>
-<li>xali 的茂密叶子1.20.1</li>
-<li>玻璃底船§7[1.20.1]§lGlass-Bottom Boat[32x]</li>
-<li>附魔工具+v3.0.1</li>
-<li>附魔武器v2.6</li>
-<li>隐藏物品展示框</li>
-<li><a class="link"   href="https://modrinth.com/user/thebaum64" >Dramatic Skys<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><em>低端机开不动光影？来试试材质包怎么样</em></li>
-<li>SkyBoxes <em>允许材质包自定义天空盒</em></li>
+<li>材质类天空前置mod<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- SkyBoxes </span><br></pre></td></tr></table></figure></div></li>
 </ul>
 ]]></content>
       <tags>
