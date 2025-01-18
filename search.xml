@@ -190,7 +190,19 @@
                      src="/images/loading.svg"
                      data-src="https://s2.loli.net/2025/01/18/wMLZr4SPlJozDhO.png"
                      
-                ></p></div></div></div>]]></content>
+                ></p></div></div></div>
+<h2 id="O5材质包文档"><a href="#O5材质包文档" class="headerlink" title="O5材质包文档"></a>O5材质包文档</h2>
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <i class="notel-icon fa-solid fa-check"></i><p>包含各类稀奇古怪的问题解答</p>
+
+    </div>
+    <div class="notel-content">
+      
+    </div>
+  </div>
+
+<a class="button  center regular" href='https://docs.qq.com/doc/DSW5JRHZsdnZrdlJH?nlc=1' title='O五文档'><i class='fa-solid fa-share-from-square'></i> O五文档</a>]]></content>
       <tags>
         <tag>问题解答</tag>
         <tag>Minecraft</tag>
@@ -405,6 +417,28 @@
       </tags>
   </entry>
   <entry>
+    <title>qBittorrent的RSS订阅无反应-添加代理解决方案</title>
+    <url>/2025/01/18/qBittorrent%E7%9A%84RSS%E8%AE%A2%E9%98%85%E6%97%A0%E5%8F%8D%E5%BA%94-%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%90%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="QBITTORRENT的RSS订阅无反应-添加代理解决方案"><a href="#QBITTORRENT的RSS订阅无反应-添加代理解决方案" class="headerlink" title="QBITTORRENT的RSS订阅无反应-添加代理解决方案"></a>QBITTORRENT的RSS订阅无反应-添加代理解决方案</h1><blockquote>
+<p>首先会正常使用<code>Clash for Windows</code>，并选择一个可使用节点<br>打开<code>允许局域网代理</code>、<code>服务模式</code>(即地球图标显示为绿色)<code>TUN模式</code><br>如<code>服务模式</code>无法自动安装走接下来的<code>服务模式手动安装</code>，如安装成功可跳转<code>qBittorrent内设置</code></p>
+</blockquote>
+<h2 id="服务模式手动安装"><a href="#服务模式手动安装" class="headerlink" title="服务模式手动安装"></a><code>服务模式</code>手动安装</h2><ol>
+<li>在一个你中意的盘符里创建<code>Clash for Windows Service</code>文件夹</li>
+<li>打开<code>Clash for Windows</code>的文件所在位置</li>
+<li>在文件路径内依次点开<code>resource\static\files\win\x64\service</code>,复制<code>clash-core-service.exe</code>和<code>service.exe</code>到刚刚创建的文件夹内</li>
+<li>再次回到<code>Clash for Windows</code>内，依次打开<code>resource\static\files\win\common</code>，复制<code>service.yml</code>到刚刚创建的文件夹内</li>
+<li>现在对着<code>Clash for Windows Service</code>按下<code>ctrl+shift+c</code>复制文件夹路径</li>
+<li>以管理员身份打开<code>CMD</code></li>
+<li><code>cd</code>进刚刚复制的文件夹路径</li>
+<li>输入<code>service.exe install</code>和<code>service.exe install</code>以安装<code>Service</code>并重启<code>Clash for Windows</code></li>
+<li>此时地球图标应该已经绿色，如果仍然不行请寻找其他解决方案或者卸载重新安装</li>
+</ol>
+<h2 id="qBittorrent内设置"><a href="#qBittorrent内设置" class="headerlink" title="qBittorrent内设置"></a><code>qBittorrent</code>内设置</h2><blockquote>
+<p>打开qBittorrent→设置→连接<br>代理服务项内:<br>类型选<code>SOCKS5</code><br>主机填<code>localhost</code><br>端口填写个人clash页面内显示的端口号(默认应该都是<code>7890</code>)<br>去除代理项内其他勾选，只勾选<code>对RSS目的使用代理</code></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>个人审美的材质包</title>
     <url>/2025/01/18/%E4%B8%AA%E4%BA%BA%E5%AE%A1%E7%BE%8E%E7%9A%84%E6%9D%90%E8%B4%A8%E5%8C%85/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人审美的材质包"><a href="#个人审美的材质包" class="headerlink" title="个人审美的材质包"></a>个人审美的材质包</h1><hr>
@@ -450,28 +484,6 @@
         <tag>Minecraft</tag>
         <tag>材质</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>qBittorrent的RSS订阅无反应-添加代理解决方案</title>
-    <url>/2025/01/18/qBittorrent%E7%9A%84RSS%E8%AE%A2%E9%98%85%E6%97%A0%E5%8F%8D%E5%BA%94-%E6%B7%BB%E5%8A%A0%E4%BB%A3%E7%90%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="QBITTORRENT的RSS订阅无反应-添加代理解决方案"><a href="#QBITTORRENT的RSS订阅无反应-添加代理解决方案" class="headerlink" title="QBITTORRENT的RSS订阅无反应-添加代理解决方案"></a>QBITTORRENT的RSS订阅无反应-添加代理解决方案</h1><blockquote>
-<p>首先会正常使用<code>Clash for Windows</code>，并选择一个可使用节点<br>打开<code>允许局域网代理</code>、<code>服务模式</code>(即地球图标显示为绿色)<code>TUN模式</code><br>如<code>服务模式</code>无法自动安装走接下来的<code>服务模式手动安装</code>，如安装成功可跳转<code>qBittorrent内设置</code></p>
-</blockquote>
-<h2 id="服务模式手动安装"><a href="#服务模式手动安装" class="headerlink" title="服务模式手动安装"></a><code>服务模式</code>手动安装</h2><ol>
-<li>在一个你中意的盘符里创建<code>Clash for Windows Service</code>文件夹</li>
-<li>打开<code>Clash for Windows</code>的文件所在位置</li>
-<li>在文件路径内依次点开<code>resource\static\files\win\x64\service</code>,复制<code>clash-core-service.exe</code>和<code>service.exe</code>到刚刚创建的文件夹内</li>
-<li>再次回到<code>Clash for Windows</code>内，依次打开<code>resource\static\files\win\common</code>，复制<code>service.yml</code>到刚刚创建的文件夹内</li>
-<li>现在对着<code>Clash for Windows Service</code>按下<code>ctrl+shift+c</code>复制文件夹路径</li>
-<li>以管理员身份打开<code>CMD</code></li>
-<li><code>cd</code>进刚刚复制的文件夹路径</li>
-<li>输入<code>service.exe install</code>和<code>service.exe install</code>以安装<code>Service</code>并重启<code>Clash for Windows</code></li>
-<li>此时地球图标应该已经绿色，如果仍然不行请寻找其他解决方案或者卸载重新安装</li>
-</ol>
-<h2 id="qBittorrent内设置"><a href="#qBittorrent内设置" class="headerlink" title="qBittorrent内设置"></a><code>qBittorrent</code>内设置</h2><blockquote>
-<p>打开qBittorrent→设置→连接<br>代理服务项内:<br>类型选<code>SOCKS5</code><br>主机填<code>localhost</code><br>端口填写个人clash页面内显示的端口号(默认应该都是<code>7890</code>)<br>去除代理项内其他勾选，只勾选<code>对RSS目的使用代理</code></p>
-</blockquote>
-]]></content>
   </entry>
   <entry>
     <title>个人必装mods</title>
