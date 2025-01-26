@@ -29,8 +29,8 @@
 <meta property="og:description" content="新的文章，新的知识">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://rio.jiu-ying.top:4000/images/redefine-og.webp">
-<meta property="article:published_time" content="2025-01-26T23:09:06.950Z">
-<meta property="article:modified_time" content="2025-01-26T23:09:06.951Z">
+<meta property="article:published_time" content="2025-01-26T23:32:35.411Z">
+<meta property="article:modified_time" content="2025-01-26T23:32:35.411Z">
 <meta property="article:author" content="Jiu_Ying">
 <meta property="article:tag" content="问题解答">
 <meta property="article:tag" content="应用">
@@ -698,15 +698,15 @@
 					<div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2025-01-26 23:09:06</span>
-        <span class="mobile">2025-01-26 23:09:06</span>
+        <span class="desktop">2025-01-26 23:32:35</span>
+        <span class="mobile">2025-01-26 23:32:35</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2025-01-26 23:09:06</span>
-            <span class="mobile">2025-01-26 23:09:06</span>
+            <span class="desktop">2025-01-26 23:32:35</span>
+            <span class="mobile">2025-01-26 23:32:35</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -732,12 +732,12 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>337 字</span>
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>624 字</span>
         </span>
     
     
         <span class="article-min2read article-meta-item">
-            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>2 分钟</span>
         </span>
     
     
@@ -762,7 +762,7 @@
 			function updateExpirationDate() {
 				try {
 					const expiredDate = new Date("Mon Jan 20 2025 08:00:00 GMT+0000 (Coordinated Universal Time)");
-					const updatedDate = new Date("Sun Jan 26 2025 23:09:06 GMT+0000");
+					const updatedDate = new Date("Sun Jan 26 2025 23:32:35 GMT+0000");
 					const now = new Date();
 					const expirationValue = document.getElementById("expiration-date");
 					const expirationContainer = document.getElementById("expiration-container");
@@ -785,7 +785,7 @@
 
 
 		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-			<h2 id="一、环境搭建"><a href="#一、环境搭建" class="headerlink" title="一、环境搭建"></a>一、环境搭建</h2><h3 id="1-安装SELENIUM库"><a href="#1-安装SELENIUM库" class="headerlink" title="1. 安装SELENIUM库"></a>1. 安装SELENIUM库</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></div>
+			<h2 id="一、环境搭建"><a href="#一、环境搭建" class="headerlink" title="一、环境搭建"></a>一、环境搭建</h2><h3 id="1-安装三方库"><a href="#1-安装三方库" class="headerlink" title="1. 安装三方库"></a>1. 安装三方库</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pip install selenium</span><br><span class="line">pip install password</span><br><span class="line">pip install time</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="2-安装浏览器驱动"><a href="#2-安装浏览器驱动" class="headerlink" title="2. 安装浏览器驱动"></a>2. 安装浏览器驱动</h3><div class="tabs" id="tab-浏览器选择"><ul class="nav-tabs"><li class="tab active"><a class="#浏览器选择-1">Edge Driver</a></li><li class="tab"><a class="#浏览器选择-2">Chrome Driver</a></li></ul><div class="tab-content"><div class="tab-pane active" id="浏览器选择-1"><p>微软Edge浏览器的Driber<br><a class="button  center large" target="_blank" rel="noopener" href='https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/' title='Edge Driver'><i class='fa-solid fa-share-from-square'></i> Edge Driver</a></p></div><div class="tab-pane" id="浏览器选择-2"><p>谷歌Chrome浏览器的Driber<br><a class="button  center large" target="_blank" rel="noopener" href='https://googlechromelabs.github.io/chrome-for-testing/' title='Chrome Driver'><i class='fa-solid fa-share-from-square'></i> Chrome Driver</a></p></div></div></div>
 
@@ -794,23 +794,21 @@
 
   </div>
 
-<h2 id="二、初始化"><a href="#二、初始化" class="headerlink" title="二、初始化"></a>二、初始化</h2><h3 id="1-启动浏览器驱动"><a href="#1-启动浏览器驱动" class="headerlink" title="1. 启动浏览器驱动"></a>1. 启动浏览器驱动</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line">wd = webdriver.Edge(<span class="string">&quot;msedgedriver&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+<h2 id="二、初始化"><a href="#二、初始化" class="headerlink" title="二、初始化"></a>二、初始化</h2><h3 id="1-导入模块"><a href="#1-导入模块" class="headerlink" title="1. 导入模块"></a>1. 导入模块</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &gt;&gt;&gt; -------- 导入模块 -------- &lt;&lt;&lt;</span></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> selenium <span class="keyword">import</span> webdriver</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.options <span class="keyword">import</span> Options</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.service <span class="keyword">import</span> Service</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br><span class="line"><span class="keyword">import</span> password</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="2-设置等待时间"><a href="#2-设置等待时间" class="headerlink" title="2. 设置等待时间"></a>2. 设置等待时间</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wd.implicitly_wait(<span class="number">5</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="2-设置浏览器配置"><a href="#2-设置浏览器配置" class="headerlink" title="2. 设置浏览器配置"></a>2. 设置浏览器配置</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &gt;&gt;&gt; -------- 设置浏览器配置 -------- &lt;&lt;&lt;</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Auto</span>():</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 设置浏览器选项</span></span><br><span class="line">    </span><br><span class="line">    rio = Options()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 禁用浏览器沙盒模式</span></span><br><span class="line"></span><br><span class="line">    rio.add_argument(<span class="string">&#x27;--no-sandbox&#x27;</span>)</span><br><span class="line">  </span><br><span class="line">    <span class="comment"># 最大化浏览器窗口</span></span><br><span class="line"></span><br><span class="line">    rio.add_argument(<span class="string">&#x27;--start-maximized&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 保持浏览器打开状态</span></span><br><span class="line"></span><br><span class="line">    rio.add_experimental_option(<span class="string">&#x27;detach&#x27;</span>, <span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 设置浏览器路径</span></span><br><span class="line"></span><br><span class="line">    RIO = webdriver.Chrome(service=Service(<span class="string">r&#x27;.\chromedriver.exe&#x27;</span>), options=rio)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> RIO</span><br><span class="line">    </span><br><span class="line">RIO=Auto()</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="3-打开网站"><a href="#3-打开网站" class="headerlink" title="3. 打开网站"></a>3. 打开网站</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wd.get(<span class="string">&quot;https://URL&quot;</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="3-打开网站"><a href="#3-打开网站" class="headerlink" title="3. 打开网站"></a>3. 打开网站</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># &gt;&gt;&gt; -------- 运行逻辑 -------- &lt;&lt;&lt;</span></span><br><span class="line"><span class="comment"># 打开网页</span></span><br><span class="line">RIO.get(<span class="string">&#x27;URL&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 等待网页加载完成</span></span><br><span class="line">time.sleep(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 点击登录按钮</span></span><br><span class="line">RIO.find_element(By.CSS_SELECTOR, <span class="string">&#x27;&#x27;</span>).click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输入用户名密码</span></span><br><span class="line">RIO.find_element(By.ID, <span class="string">&#x27;&#x27;</span>).send_keys(password.username)</span><br><span class="line">RIO.find_element(By.ID, <span class="string">&#x27;&#x27;</span>).send_keys(password.password)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 点击登录按钮</span></span><br><span class="line">RIO.find_element(By.CSS_SELECTOR, <span class="string">&#x27;&#x27;</span>).click()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取当前时间并格式化</span></span><br><span class="line">current_time = datetime.now().strftime(<span class="string">&#x27;%Y-%m-%d_%H-%M-%S&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 截图（当前时间）</span></span><br><span class="line">RIO.save_screenshot(<span class="string">f&#x27;screenshot_<span class="subst">&#123;current_time&#125;</span>.png&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 等待条码打印完成</span></span><br><span class="line">time.sleep(<span class="number">8</span>)</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="4-程序的最后关闭浏览器驱动"><a href="#4-程序的最后关闭浏览器驱动" class="headerlink" title="4. 程序的最后关闭浏览器驱动"></a>4. 程序的最后关闭浏览器驱动</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wd.quit()</span><br></pre></td></tr></table></figure></div>
+<h3 id="4-程序的最后关闭浏览器驱动"><a href="#4-程序的最后关闭浏览器驱动" class="headerlink" title="4. 程序的最后关闭浏览器驱动"></a>4. 程序的最后关闭浏览器驱动</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 退出浏览器并释放驱动</span></span><br><span class="line">RIO.quit()</span><br></pre></td></tr></table></figure></div>
 
-<h2 id="三、选择元素"><a href="#三、选择元素" class="headerlink" title="三、选择元素"></a>三、选择元素</h2><h3 id="1-导入库"><a href="#1-导入库" class="headerlink" title="1. 导入库"></a>1. 导入库</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br></pre></td></tr></table></figure></div>
+<h2 id="三、选择元素"><a href="#三、选择元素" class="headerlink" title="三、选择元素"></a>三、选择元素</h2><h3 id="1-根据ID查找"><a href="#1-根据ID查找" class="headerlink" title="1. 根据ID查找"></a>1. 根据ID查找</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.ID, <span class="string">&#x27;ID值&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="2-根据ID查找"><a href="#2-根据ID查找" class="headerlink" title="2. 根据ID查找"></a>2. 根据ID查找</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.ID, <span class="string">&#x27;ID值&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="2-根据CSS选择器查找"><a href="#2-根据CSS选择器查找" class="headerlink" title="2. 根据CSS选择器查找"></a>2. 根据CSS选择器查找</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.CSS_SELECTOR, <span class="string">&#x27;css选择器&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="3-根据CSS选择器查找"><a href="#3-根据CSS选择器查找" class="headerlink" title="3. 根据CSS选择器查找"></a>3. 根据CSS选择器查找</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.CSS_SELECTOR, <span class="string">&#x27;css选择器&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+<h3 id="3-其他查找方法"><a href="#3-其他查找方法" class="headerlink" title="3. 其他查找方法"></a>3. 其他查找方法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.CLASS_NAME, <span class="string">&#x27;class属性&#x27;</span>)</span><br><span class="line">element = wd.find_element(By.TAG_NAME, <span class="string">&#x27;标签名&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="4-其他查找方法"><a href="#4-其他查找方法" class="headerlink" title="4. 其他查找方法"></a>4. 其他查找方法</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">element = wd.find_element(By.CLASS_NAME, <span class="string">&#x27;class属性&#x27;</span>)</span><br><span class="line">element = wd.find_element(By.TAG_NAME, <span class="string">&#x27;标签名&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="5-FIND-ELEMENT与FIND-ELEMENTS"><a href="#5-FIND-ELEMENT与FIND-ELEMENTS" class="headerlink" title="5. FIND_ELEMENT与FIND_ELEMENTS"></a>5. FIND_ELEMENT与FIND_ELEMENTS</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">find_element返回一个元素（第一个）</span><br><span class="line">find_elements返回元素列表</span><br></pre></td></tr></table></figure></div>
+<h3 id="4-FIND-ELEMENT与FIND-ELEMENTS"><a href="#4-FIND-ELEMENT与FIND-ELEMENTS" class="headerlink" title="4. FIND_ELEMENT与FIND_ELEMENTS"></a>4. FIND_ELEMENT与FIND_ELEMENTS</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">find_element返回一个元素（第一个）</span><br><span class="line">find_elements返回元素列表</span><br></pre></td></tr></table></figure></div>
 
 <h2 id="四、操作元素"><a href="#四、操作元素" class="headerlink" title="四、操作元素"></a>四、操作元素</h2><h3 id="1-输入文字：SEND-KEYS"><a href="#1-输入文字：SEND-KEYS" class="headerlink" title="1. 输入文字：SEND_KEYS()"></a>1. 输入文字：SEND_KEYS()</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">element.send_keys(<span class="string">&#x27;文本&#x27;</span>)			<span class="comment"># 用于文本框</span></span><br></pre></td></tr></table></figure></div>
 
@@ -821,6 +819,24 @@
 <h2 id="五、切换窗口"><a href="#五、切换窗口" class="headerlink" title="五、切换窗口"></a>五、切换窗口</h2><h3 id="1-IFRAME"><a href="#1-IFRAME" class="headerlink" title="1. IFRAME"></a>1. IFRAME</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 进入到iframe</span></span><br><span class="line">wd.switch_to.frame(<span class="string">&#x27;iframe名&#x27;</span>)</span><br><span class="line"><span class="comment"># wd.switch_to.frame(element)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 回到原页面</span></span><br><span class="line">wd.switch_to.default_content()</span><br></pre></td></tr></table></figure></div>
 
 <h3 id="2-切换页面"><a href="#2-切换页面" class="headerlink" title="2. 切换页面"></a>2. 切换页面</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> window_handle <span class="keyword">in</span> wd.window_handles:</span><br><span class="line">    wd.switch_to.window(window_handle)</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&#x27;内容&#x27;</span> <span class="keyword">in</span> wd.title:</span><br><span class="line">        <span class="keyword">break</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="六、打包程序"><a href="#六、打包程序" class="headerlink" title="六、打包程序"></a>六、打包程序</h2>
+  <div class="note p-4 mb-4 rounded-small tip icon-padding">
+    <i class="note-icon fa-solid fa-lightbulb"></i><p>安装打包程序库</p>
+
+  </div>
+
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pyinstaller</span><br></pre></td></tr></table></figure></div>
+
+
+  <div class="note p-4 mb-4 rounded-small tip icon-padding">
+    <i class="note-icon fa-solid fa-lightbulb"></i><p>将<code>待打包程序</code>、<code>图标</code>放在同一级目录中，然后执行命令</p>
+
+  </div>
+
+<div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Pyinstaller -F -w -i *.ico *.py</span><br></pre></td></tr></table></figure></div>
+
+
 		</div>
 
 		
@@ -830,11 +846,11 @@
         <li><strong>标题:</strong> selenium</li>
         <li><strong>作者:</strong> Jiu_Ying</li>
         <li><strong>创建于
-                :</strong> 2025-01-26 23:09:06</li>
+                :</strong> 2025-01-26 23:32:35</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2025-01-26 23:09:06
+                    :</strong> 2025-01-26 23:32:35
             </li>
         
         <li>
@@ -887,6 +903,18 @@
 				</a>
 			</div>
 			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2025/01/26/%E4%B8%AA%E4%BA%BA%E5%AE%A1%E7%BE%8E%E7%9A%84%E6%9D%90%E8%B4%A8%E5%8C%85/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">个人审美的材质包</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
 			
 		</div>
 		
@@ -959,7 +987,7 @@
 	<div class="post-toc">
 		<div class="toc-title">目录</div>
 		<div class="page-title">selenium</div>
-		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="nav-number">1.</span> <span class="nav-text">一、环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AE%89%E8%A3%85SELENIUM%E5%BA%93"><span class="nav-number">1.1.</span> <span class="nav-text">1. 安装SELENIUM库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="nav-number">1.2.</span> <span class="nav-text">2. 安装浏览器驱动</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">2.</span> <span class="nav-text">二、初始化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%90%AF%E5%8A%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="nav-number">2.1.</span> <span class="nav-text">1. 启动浏览器驱动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%AE%BE%E7%BD%AE%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4"><span class="nav-number">2.2.</span> <span class="nav-text">2. 设置等待时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%89%93%E5%BC%80%E7%BD%91%E7%AB%99"><span class="nav-number">2.3.</span> <span class="nav-text">3. 打开网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9C%80%E5%90%8E%E5%85%B3%E9%97%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="nav-number">2.4.</span> <span class="nav-text">4. 程序的最后关闭浏览器驱动</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E9%80%89%E6%8B%A9%E5%85%83%E7%B4%A0"><span class="nav-number">3.</span> <span class="nav-text">三、选择元素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AF%BC%E5%85%A5%E5%BA%93"><span class="nav-number">3.1.</span> <span class="nav-text">1. 导入库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%A0%B9%E6%8D%AEID%E6%9F%A5%E6%89%BE"><span class="nav-number">3.2.</span> <span class="nav-text">2. 根据ID查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%A0%B9%E6%8D%AECSS%E9%80%89%E6%8B%A9%E5%99%A8%E6%9F%A5%E6%89%BE"><span class="nav-number">3.3.</span> <span class="nav-text">3. 根据CSS选择器查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%85%B6%E4%BB%96%E6%9F%A5%E6%89%BE%E6%96%B9%E6%B3%95"><span class="nav-number">3.4.</span> <span class="nav-text">4. 其他查找方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-FIND-ELEMENT%E4%B8%8EFIND-ELEMENTS"><span class="nav-number">3.5.</span> <span class="nav-text">5. FIND_ELEMENT与FIND_ELEMENTS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%93%8D%E4%BD%9C%E5%85%83%E7%B4%A0"><span class="nav-number">4.</span> <span class="nav-text">四、操作元素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%BE%93%E5%85%A5%E6%96%87%E5%AD%97%EF%BC%9ASEND-KEYS"><span class="nav-number">4.1.</span> <span class="nav-text">1. 输入文字：SEND_KEYS()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E7%82%B9%E5%87%BB%EF%BC%9ACLICK"><span class="nav-number">4.2.</span> <span class="nav-text">2. 点击：CLICK()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%B8%8B%E6%8B%89%E6%A1%86%E9%80%89%E6%8B%A9"><span class="nav-number">4.3.</span> <span class="nav-text">3. 下拉框选择</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%88%87%E6%8D%A2%E7%AA%97%E5%8F%A3"><span class="nav-number">5.</span> <span class="nav-text">五、切换窗口</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-IFRAME"><span class="nav-number">5.1.</span> <span class="nav-text">1. IFRAME</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%88%87%E6%8D%A2%E9%A1%B5%E9%9D%A2"><span class="nav-number">5.2.</span> <span class="nav-text">2. 切换页面</span></a></li></ol></li></ol>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="nav-number">1.</span> <span class="nav-text">一、环境搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AE%89%E8%A3%85%E4%B8%89%E6%96%B9%E5%BA%93"><span class="nav-number">1.1.</span> <span class="nav-text">1. 安装三方库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="nav-number">1.2.</span> <span class="nav-text">2. 安装浏览器驱动</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="nav-number">2.</span> <span class="nav-text">二、初始化</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="nav-number">2.1.</span> <span class="nav-text">1. 导入模块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%AE%BE%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E9%85%8D%E7%BD%AE"><span class="nav-number">2.2.</span> <span class="nav-text">2. 设置浏览器配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%89%93%E5%BC%80%E7%BD%91%E7%AB%99"><span class="nav-number">2.3.</span> <span class="nav-text">3. 打开网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9C%80%E5%90%8E%E5%85%B3%E9%97%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A9%B1%E5%8A%A8"><span class="nav-number">2.4.</span> <span class="nav-text">4. 程序的最后关闭浏览器驱动</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E9%80%89%E6%8B%A9%E5%85%83%E7%B4%A0"><span class="nav-number">3.</span> <span class="nav-text">三、选择元素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%A0%B9%E6%8D%AEID%E6%9F%A5%E6%89%BE"><span class="nav-number">3.1.</span> <span class="nav-text">1. 根据ID查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%A0%B9%E6%8D%AECSS%E9%80%89%E6%8B%A9%E5%99%A8%E6%9F%A5%E6%89%BE"><span class="nav-number">3.2.</span> <span class="nav-text">2. 根据CSS选择器查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%85%B6%E4%BB%96%E6%9F%A5%E6%89%BE%E6%96%B9%E6%B3%95"><span class="nav-number">3.3.</span> <span class="nav-text">3. 其他查找方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-FIND-ELEMENT%E4%B8%8EFIND-ELEMENTS"><span class="nav-number">3.4.</span> <span class="nav-text">4. FIND_ELEMENT与FIND_ELEMENTS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E6%93%8D%E4%BD%9C%E5%85%83%E7%B4%A0"><span class="nav-number">4.</span> <span class="nav-text">四、操作元素</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E8%BE%93%E5%85%A5%E6%96%87%E5%AD%97%EF%BC%9ASEND-KEYS"><span class="nav-number">4.1.</span> <span class="nav-text">1. 输入文字：SEND_KEYS()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E7%82%B9%E5%87%BB%EF%BC%9ACLICK"><span class="nav-number">4.2.</span> <span class="nav-text">2. 点击：CLICK()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E4%B8%8B%E6%8B%89%E6%A1%86%E9%80%89%E6%8B%A9"><span class="nav-number">4.3.</span> <span class="nav-text">3. 下拉框选择</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%88%87%E6%8D%A2%E7%AA%97%E5%8F%A3"><span class="nav-number">5.</span> <span class="nav-text">五、切换窗口</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-IFRAME"><span class="nav-number">5.1.</span> <span class="nav-text">1. IFRAME</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%88%87%E6%8D%A2%E9%A1%B5%E9%9D%A2"><span class="nav-number">5.2.</span> <span class="nav-text">2. 切换页面</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F"><span class="nav-number">6.</span> <span class="nav-text">六、打包程序</span></a></li></ol>
 
 	</div>
 </div>
@@ -992,7 +1020,7 @@
                     </span>
                     
                         <span>
-                            共 21.5k 字
+                            共 21.8k 字
                         </span>
                     
                 </p>
