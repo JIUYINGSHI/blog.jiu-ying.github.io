@@ -461,10 +461,10 @@
     <url>/2025/01/26/selenium/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一、环境搭建"><a href="#一、环境搭建" class="headerlink" title="一、环境搭建"></a>一、环境搭建</h2><h3 id="1-安装SELENIUM库"><a href="#1-安装SELENIUM库" class="headerlink" title="1. 安装SELENIUM库"></a>1. 安装SELENIUM库</h3><div class="code-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></div>
 
-<h3 id="2-安装浏览器驱动"><a href="#2-安装浏览器驱动" class="headerlink" title="2. 安装浏览器驱动"></a>2. 安装浏览器驱动</h3><div class="tabs" id="tab-浏览器选择"><ul class="nav-tabs"><li class="tab active"><a class="#浏览器选择-1">Edge Driver</a></li><li class="tab"><a class="#浏览器选择-2">Chrome Driver</a></li></ul><div class="tab-content"><div class="tab-pane active" id="浏览器选择-1"><p>微软Edge浏览器的Driber<br><a class="button  center large" href='https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/' title='Edge Driver'><i class='fa-solid fa-share-from-square'></i> Edge Driver</a></p></div><div class="tab-pane" id="浏览器选择-2"><p>谷歌Chrome浏览器的Driber<br><a class="button  center large" href='https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90/' title='Chrome Driver'><i class='fa-solid fa-share-from-square'></i> Chrome Driver</a></p></div></div></div>
+<h3 id="2-安装浏览器驱动"><a href="#2-安装浏览器驱动" class="headerlink" title="2. 安装浏览器驱动"></a>2. 安装浏览器驱动</h3><div class="tabs" id="tab-浏览器选择"><ul class="nav-tabs"><li class="tab active"><a class="#浏览器选择-1">Edge Driver</a></li><li class="tab"><a class="#浏览器选择-2">Chrome Driver</a></li></ul><div class="tab-content"><div class="tab-pane active" id="浏览器选择-1"><p>微软Edge浏览器的Driber<br><a class="button  center large" href='https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/' title='Edge Driver'><i class='fa-solid fa-share-from-square'></i> Edge Driver</a></p></div><div class="tab-pane" id="浏览器选择-2"><p>谷歌Chrome浏览器的Driber<br><a class="button  center large" href='https://googlechromelabs.github.io/chrome-for-testing/' title='Chrome Driver'><i class='fa-solid fa-share-from-square'></i> Chrome Driver</a></p></div></div></div>
 
-  <div class="note p-4 mb-4 rounded-small tip">
-    <p>简单起见将下载的<code>driver.exe</code>与<code>py文件</code>放在同一目录下，可以不用配置环境变量。</p>
+  <div class="note p-4 mb-4 rounded-small tip icon-padding">
+    <i class="note-icon fa-solid fa-lightbulb"></i><p>简单起见将下载的<code>driver.exe</code>与<code>py文件</code>放在同一目录下，可以不用配置环境变量。</p>
 
   </div>
 
