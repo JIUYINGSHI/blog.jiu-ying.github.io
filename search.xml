@@ -215,8 +215,9 @@
                       alt="image.png"
                 ></p>
 <h2 id="O5材质包文档"><a href="#O5材质包文档" class="headerlink" title="O5材质包文档"></a>O5材质包文档</h2>
-  <div class="note p-4 mb-4 rounded-small green fa-check 包含各类稀奇古怪的问题解答">
-    
+  <div class="note p-4 mb-4 rounded-small green icon-padding">
+    <i class="note-icon fa-solid fa-check"></i><p>包含各类稀奇古怪的问题解答</p>
+
   </div>
 
 <a class="button  center regular" href='https://docs.qq.com/doc/DSW5JRHZsdnZrdlJH?nlc=1' title='O五文档'><i class='fa-solid fa-share-from-square'></i> O五文档</a>]]></content>
