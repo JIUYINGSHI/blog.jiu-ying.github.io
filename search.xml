@@ -1177,6 +1177,13 @@
 <hr>
 <a class="button  center regular" href='https://web.jiu-ying.top/' title='个人网站展示'><i class='fa-solid fa-blog'></i> 个人网站展示</a> <a class="button  center regular" href='https:/bugfree.cc' title='Python练习免费网站'><i class='fa-brands fa-python'></i> Python练习免费网站</a> <a class="button  center regular" href='https://markdown.com.cn/basic-syntax/' title='Markdown语法学习'><i class='fa-brands fa-markdown'></i> Markdown语法学习</a> <a class="button  center regular" href='https://fontawesome.com/search' title='API图标搜索'><i class='fa-solid fa-share-from-square'></i> API图标搜索</a>
 <hr>
+<h2 id="透明字符"><a href="#透明字符" class="headerlink" title="透明字符"></a>透明字符</h2><div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></div>
+<hr>
 <p>My best love ：<img  
                      lazyload
                      src="/images/loading.svg"
@@ -1189,29 +1196,6 @@
 <iframe width= 560px height= 315px src="https://player.bilibili.com/player.html?aid=712020469&bvid=BV1wD4y1o7AS&cid=1298431480&p=15&&autoplay=0&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       <tags>
         <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自己创建右键菜单选项</title>
-    <url>/2025/01/29/%E8%87%AA%E5%B7%B1%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E9%80%89%E9%A1%B9/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol>
-<li>win+r输入<code>regedit</code></li>
-<li>导航到<code>计算机\HKEY_CLASSES_ROOT\DesktopBackground\Shell</code></li>
-<li>创建一个可以执行的软件只需要新建项然后命名</li>
-<li>给项新建一个<code>Command</code>的项并给字符值粘贴上应用的路径即可使用</li>
-<li>想要图标就给新建项创建名为<code>Icon</code>的字符值，内部可以给一个图标的路径值或者调用windows自带的dll图标</li>
-<li>如果想要一个右键的拓展菜单，只需要在新建项内创建一个<code>SubCommands</code>的空值就可以</li>
-<li>然后创建子项<code>Shell</code>,再创建<code>Shell</code>的子项<code>Item0</code>往后类推</li>
-<li>子项的名称可以创建<code>MUIVerb</code>的字符值进行命名</li>
-</ol>
-<hr>
-<h1 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h1><h2 id="创建一个重启进入BIOS的菜单"><a href="#创建一个重启进入BIOS的菜单" class="headerlink" title="创建一个重启进入BIOS的菜单"></a>创建一个重启进入BIOS的菜单</h2><blockquote>
-<p><code>win+r</code>输入<code>regedit</code><br>导航到<code>计算机\HKEY_CLASSES_ROOT\DesktopBackground\Shell</code><br>右键创建项<code>休眠和重启</code><br>项内右键创建字符串值<code>SubCommands</code><br>右键项<code>休眠和重启</code>新建子项<code>Shell</code><br>右键项<code>Shell</code>新建子项<code>Item0</code> <code>Item1</code> <code>Item2</code> <code>Item3</code><br>并分别给每个类项创建<code>MUIVerb</code>字符串，值为<code>休眠</code> <code>重启(不更新)</code> <code>关机(不更新)</code> <code>重启并进入BIOS</code><br>给<code>重启并进入BIOS</code>创建<code>Icon</code>的字符串，值为<code>shell32.dll,12</code><br>接下来给每个<code>Item</code>项创建子项<code>Command</code>，并分别修改里面的默认字符串<br>休眠&gt;<code>rundll32.exe powrprof.dll,SetSuspendState 0,1,0</code><br>重启(不更新)&gt;<code>shutdown.exe /r /t 0</code><br>关机(不更新)&gt;<code>shutdown.exe /s /t 0</code><br>重启并进入BIOS&gt;<code>shutdown -r -fw -t 0</code></p>
-</blockquote>
-<hr>
-]]></content>
-      <tags>
-        <tag>使用优化</tag>
       </tags>
   </entry>
   <entry>
@@ -1277,6 +1261,29 @@
 ]]></content>
       <tags>
         <tag>问题解答</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自己创建右键菜单选项</title>
+    <url>/2025/01/29/%E8%87%AA%E5%B7%B1%E5%88%9B%E5%BB%BA%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E9%80%89%E9%A1%B9/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol>
+<li>win+r输入<code>regedit</code></li>
+<li>导航到<code>计算机\HKEY_CLASSES_ROOT\DesktopBackground\Shell</code></li>
+<li>创建一个可以执行的软件只需要新建项然后命名</li>
+<li>给项新建一个<code>Command</code>的项并给字符值粘贴上应用的路径即可使用</li>
+<li>想要图标就给新建项创建名为<code>Icon</code>的字符值，内部可以给一个图标的路径值或者调用windows自带的dll图标</li>
+<li>如果想要一个右键的拓展菜单，只需要在新建项内创建一个<code>SubCommands</code>的空值就可以</li>
+<li>然后创建子项<code>Shell</code>,再创建<code>Shell</code>的子项<code>Item0</code>往后类推</li>
+<li>子项的名称可以创建<code>MUIVerb</code>的字符值进行命名</li>
+</ol>
+<hr>
+<h1 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h1><h2 id="创建一个重启进入BIOS的菜单"><a href="#创建一个重启进入BIOS的菜单" class="headerlink" title="创建一个重启进入BIOS的菜单"></a>创建一个重启进入BIOS的菜单</h2><blockquote>
+<p><code>win+r</code>输入<code>regedit</code><br>导航到<code>计算机\HKEY_CLASSES_ROOT\DesktopBackground\Shell</code><br>右键创建项<code>休眠和重启</code><br>项内右键创建字符串值<code>SubCommands</code><br>右键项<code>休眠和重启</code>新建子项<code>Shell</code><br>右键项<code>Shell</code>新建子项<code>Item0</code> <code>Item1</code> <code>Item2</code> <code>Item3</code><br>并分别给每个类项创建<code>MUIVerb</code>字符串，值为<code>休眠</code> <code>重启(不更新)</code> <code>关机(不更新)</code> <code>重启并进入BIOS</code><br>给<code>重启并进入BIOS</code>创建<code>Icon</code>的字符串，值为<code>shell32.dll,12</code><br>接下来给每个<code>Item</code>项创建子项<code>Command</code>，并分别修改里面的默认字符串<br>休眠&gt;<code>rundll32.exe powrprof.dll,SetSuspendState 0,1,0</code><br>重启(不更新)&gt;<code>shutdown.exe /r /t 0</code><br>关机(不更新)&gt;<code>shutdown.exe /s /t 0</code><br>重启并进入BIOS&gt;<code>shutdown -r -fw -t 0</code></p>
+</blockquote>
+<hr>
+]]></content>
+      <tags>
+        <tag>使用优化</tag>
       </tags>
   </entry>
   <entry>
