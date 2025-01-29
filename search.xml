@@ -359,6 +359,87 @@
       </tags>
   </entry>
   <entry>
+    <title>Steam美化</title>
+    <url>/2025/01/29/Steam%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="一、官网"><a href="#一、官网" class="headerlink" title="一、官网"></a>一、官网</h1>
+  <div class="note p-4 mb-4 rounded-small tip icon-padding">
+    <i class="note-icon fa-solid fa-lightbulb"></i><p><strong>千禧年</strong>: 一个优异非常的steam美化插件，虽然目前美化方案较少，但是每一个的制作方案都很全面并且具有现代化、简易化的有点，没有繁杂的设计。</p>
+
+  </div>
+
+<a class="button  center large" href='https://steambrew.app/' title='Millennium.'><i class='fa-solid fa-share-from-square'></i> Millennium.</a>
+
+<h1 id="二、安装"><a href="#二、安装" class="headerlink" title="二、安装"></a>二、安装</h1><h2 id="1-下载"><a href="#1-下载" class="headerlink" title="1.下载"></a>1.下载</h2><p>要在 <code>Windows</code> 上安装 <code>Millennium</code>，我们使用 <code>PowerShell</code> 安装程序脚本。要运行该脚本，请打开 <code>PowerShell</code>，粘贴以下命令，然后按 <code>Enter</code>。</p>
+<p><strong>Millennium 是完全可移植的，并且以下脚本不会改变任何系统配置。</strong></p>
+<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">iwr</span> <span class="literal">-useb</span> <span class="string">&quot;https://steambrew.app/install.ps1&quot;</span> | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="2-自动安装插件"><a href="#2-自动安装插件" class="headerlink" title="2.自动安装插件"></a>2.自动安装插件</h2><p>首先从名为<a class="link"   href="https://github.com/SteamClientHomebrew/Millennium/releases/latest" >this repository<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>下载 <code>Millennium</code> 的 Windows 资产<code>millennium-v0.0.0-windows-x86_64.zip</code>。只需将所有文件放入您的 <code>Steam</code> 目录中，您可以通过运行下面的 <code>PowerShell</code> 命令找到该目录</p>
+<div class="code-container" data-rel="Powershell"><figure class="iseeu highlight powershell"><table><tr><td class="code"><pre><span class="line">(<span class="built_in">Get-ItemProperty</span> <span class="literal">-Path</span> <span class="string">&quot;HKLM:\SOFTWARE\WOW6432Node\Valve\Steam&quot;</span> <span class="literal">-Name</span> <span class="string">&quot;InstallPath&quot;</span>).InstallPath</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="3-手动安装插件"><a href="#3-手动安装插件" class="headerlink" title="3.手动安装插件"></a>3.手动安装插件</h2><p>首先从名为 的<a class="link"   href="https://github.com/SteamClientHomebrew/Millennium/releases/latest" >this repository<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>下载 Millennium 的 Linux 资源<code>millennium-v0.0.0-linux-x86_64.tar.gz</code>。提取并将所有文件放入 中<code>~/.millennium/</code>。然后使以下文件可执行</p>
+<ul>
+<li><code>~/.millennium/ext/data/cache/bin/python3.11</code>（用于管理插件包；不是守护进程）<br>  <code>~/.millennium/ext/data/cache/bin/python3.11</code> （用于管理插件软件包；不是守护程序）</li>
+<li><code>~/.millennium/ext/bin/millennium</code></li>
+<li><code>~/.millennium/start.sh</code></li>
+</ul>
+<p>通过运行<code>chmod +x path/to/file</code></p>
+<p>然后，您可以从<code>~/.millennium/start.sh</code></p>
+<p>或者，您还可以添加<code>~/.millennium/ext/bin/</code>以便<code>$PATH</code>能够全局运行 Millenniums 配置 CLI，尽管您也可以从 Steam 的 UI 配置 Millennium（<strong>Steam -&gt; 设置 -&gt; 插件和更新和主题</strong>）</p>
+<h1 id="三、选择方案"><a href="#三、选择方案" class="headerlink" title="三、选择方案"></a>三、选择方案</h1>
+  <div class="note p-4 mb-4 rounded-small tip icon-padding">
+    <i class="note-icon fa-solid fa-lightbulb"></i><p>进入主题页面选择一个自己喜欢的方案，并按照他的安装教程进行安装</p>
+
+  </div>
+
+<a class="button  center large" href='https://steambrew.app/themes' title='Millennium.'><i class='fa-solid fa-share-from-square'></i> Millennium.</a>
+<h1 id="四、案例介绍"><a href="#四、案例介绍" class="headerlink" title="四、案例介绍"></a>四、案例介绍</h1><p>以<code>SpaceTheme</code>举例</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s2.loli.net/2025/01/29/Q5CG86SdTN1rPlx.png"
+                      alt="banner.png"
+                ></p>
+<h2 id="1-自动安装（推荐）"><a href="#1-自动安装（推荐）" class="headerlink" title="1.自动安装（推荐）"></a>1.自动安装（推荐）</h2><ol>
+<li>下载<a class="link"   href="https://docs.steambrew.app/users/installing" >Millennium<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。按照提供的说明安装修补程序。</li>
+<li>下载<a class="link"   href="https://github.com/SpaceTheme/Installer/releases" >SpaceTheme 安装程序<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>或在 PowerShell 中运行命令：</li>
+</ol>
+<div class="code-container" data-rel="Ps1"><figure class="iseeu highlight ps1"><table><tr><td class="code"><pre><span class="line"><span class="built_in">iwr</span> <span class="literal">-useb</span> <span class="string">&quot;https://spacetheme.de/steam.ps1&quot;</span> | <span class="built_in">iex</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="2-手动安装"><a href="#2-手动安装" class="headerlink" title="2.手动安装"></a>2.手动安装</h2><ol>
+<li>下载<a class="link"   href="https://docs.steambrew.app/users/installing" >Millennium<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。按照提供的说明安装修补程序。</li>
+<li>打开 Steam 并导航至<code>Steam -&gt; Settings -&gt; Themes</code></li>
+<li>单击文件夹图标打开皮肤文件夹</li>
+<li>现在只需将主题放入皮肤文件夹中并解压 .zip</li>
+<li>安装后，从界面中选择主题。</li>
+</ol>
+<h2 id="3-更改徽标文字"><a href="#3-更改徽标文字" class="headerlink" title="3.更改徽标文字"></a>3.更改徽标文字</h2><p>此时应该看到了左上角的<code>Steam</code>变为了<code>SpaceTheme</code>字样，那么如果你想更换他的话应该怎么更换呢？</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s2.loli.net/2025/01/29/iUcjfem8hx5kJEp.png"
+                      alt="libGamepage.png"
+                ></p>
+<p>让我们进入<code>SpaceTheme</code>的文件夹结构中找到他。<br>他的位置在这里</p>
+<details class="orange" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>**SpaceTheme**:文件结构 </summary>
+              <div class='content'>
+              <p><strong>SpaceTheme</strong><br>├──.git<br>├──.github<br>├──_assets<br>├──options<br>├──src<br>│      └──css<br>│               ├──friends<br>│               ├──inputs<br>│               └──steam<br>│                          ├──downloadPage.css<br>│                          ├──gamepage.css<br>│                          ├──libHome.css<br>│                          ├──modalDialogPopup.css<br>│                          ├──newsModal.css<br>│                          ├──sidebar.css<br>│                          └──<code>titlebar.css</code><br>│               ├──webkit<br>│               ├──bigpicture.custom.css<br>│               ├──notifications.custom.css<br>│               ├──regular.css<br>│               └──root.css<br>│      └──icons<br>│      └──js<br>├──bigpicture.custom.css<br>├──friends.custom.css<br>├──friends.custom.js<br>├──libraryroot.custom.css<br>├──libraryroot.custom.js<br>├──LICENSE<br>├──menu.custom.css<br>├──notifications.custom.css<br>├──notifications.custom.js<br>├──README.md<br>├──skin.json<br>├──webkit.css<br>└──webkit.js</p>
+              </div>
+            </details>
+
+<p>来到<code>titlebar.css</code>中找到<code>.bSKGlAJG2UVWTsntEJY2v::after</code>和<code>._2UyOBeiSdBayaFdRa39N2O:nth-of-type(1)::after</code>两个键值，将里面的<code>Space</code>,<code>Theme</code>分别替换为<code>S</code>和<code>team</code>，随后重启即可大功告成了，或者分别替换为自己想要替换的内容的前半部分和后半部分。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../../static/images/Pasted%20image%2020250129135559.png"
+                      alt="Pasted image 20250129135559"
+                ></p>
+]]></content>
+      <tags>
+        <tag>应用</tag>
+        <tag>使用优化</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UWP代理</title>
     <url>/2025/01/29/UWP%E4%BB%A3%E7%90%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="UWP代理"><a href="#UWP代理" class="headerlink" title="UWP代理"></a>UWP代理</h1><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>   有关UWP应用的详细介绍，可以查阅Wiki的相关词条：<a class="link"   href="https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8Windows%E5%B9%B3%E5%8F%B0" >Universal Windows Platform<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
