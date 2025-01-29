@@ -420,7 +420,7 @@
                       alt="libGamepage.png"
                 ></p>
 <p>让我们进入<code>SpaceTheme</code>的文件夹结构中找到他。<br>他的位置在这里</p>
-<details class="orange" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>SpaceTheme:文件结构 </summary>
+<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>SpaceTheme:文件结构 </summary>
               <div class='content'>
               <p><strong>SpaceTheme</strong><br>├──.git<br>├──.github<br>├──_assets<br>├──options<br>├──src<br>│      └──css<br>│               ├──friends<br>│               ├──inputs<br>│               └──steam<br>│                          ├──downloadPage.css<br>│                          ├──gamepage.css<br>│                          ├──libHome.css<br>│                          ├──modalDialogPopup.css<br>│                          ├──newsModal.css<br>│                          ├──sidebar.css<br>│                          └──<code>titlebar.css</code><br>│               ├──webkit<br>│               ├──bigpicture.custom.css<br>│               ├──notifications.custom.css<br>│               ├──regular.css<br>│               └──root.css<br>│      └──icons<br>│      └──js<br>├──bigpicture.custom.css<br>├──friends.custom.css<br>├──friends.custom.js<br>├──libraryroot.custom.css<br>├──libraryroot.custom.js<br>├──LICENSE<br>├──menu.custom.css<br>├──notifications.custom.css<br>├──notifications.custom.js<br>├──README.md<br>├──skin.json<br>├──webkit.css<br>└──webkit.js</p>
               </div>
@@ -430,8 +430,8 @@
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/../../static/images/Pasted%20image%2020250129135559.png"
-                      alt="Pasted image 20250129135559"
+                     data-src="https://s2.loli.net/2025/01/29/itjnGWZrDfRaIOo.png"
+                      alt="image.png"
                 ></p>
 ]]></content>
       <tags>
